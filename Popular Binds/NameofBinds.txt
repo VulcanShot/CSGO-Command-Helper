@@ -1,0 +1,14 @@
+Mousewheel Jump Bind
+Quickswitch Bind
+Nade Lineup Crosshair Bind
+Drop Bomb Bind
+Clear Decals Bind
+Switch Hands Bind
+Noclip Bind
+Jump Throw Bind
+Net_graph Scoreboard Bind
+Increase Volume When Walking Bind
+Zoom Radar Bind
+Easy way to find a bomb
+Runthrow
+Change crosshair size

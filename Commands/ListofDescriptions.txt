@@ -1,0 +1,3158 @@
+
+
+Autosave
+Autosavedangerous
+Restarts bug reporter .dll
+Record a demo incrementally.
+Erases current game stats and writes out a blank stats file
+Shutdown and restart the engine.
+Turn on achievement debug msgs.
+Turn off achievements.
+Add an ip address to the ban list.
+
+
+Clears bits set on nav links indicating link is unusable 
+Npc line-of-sight debug mode. If 1, solid entities that block npc loc will be highlighted with white bounding boxes. If 2, it'l
+Debug the attempted connection between two nodes
+
+Bi-passes all ai logic routines and puts all npcs into their idle animations.  Can be used to get npcs out of your way and to t
+
+Drop an ai_hint at the player's current eye position.
+
+Controls which connections are shown when ai_show_hull or ai_show_connect commands are used arguments:npc name or classname, 
+Cycles through the various hull sizes. Currently selected hull size is written to the screen.  Controls which connections are 
+Toggles node display.  First call displays the nodes for the given network as green objects.  Second call  displays the nodes a
+
+If npc is stepping through tasks (see ai_step ) will resume normal processing.
+Set how high ai bumps up ground walkers when checking steps
+Like ai_disable but you manually specify the state (with a 0 or 1) instead of toggling it.
+Displays the allowed connections between each node for the currently selected hull type.  Hulls are color code as follows: gre
+Displays the allowed connections between each node for the currently selected hull type.  Hulls are color code as follows: gre
+Displays the allowed connections between each node for the currently selected hull type.  Hulls are color code as follows: gre
+Displays the allowed connections between each node for the currently selected hull type.  Hulls are color code as follows: gre
+Toggles graph connection display for the node that the player is looking at.  Nodes that are connected to the selected node by 
+Draw a grid on the floor where looking.
+Displays all hints as small boxes blue- hint is available for use red- hint is currently being used by an npc orange- 
+Displays the allowed hulls between each node for the currently selected hull type.  Hulls are color code as follows: green- 
+Highlight the specified node
+Toggles visibility display for the node that the player is looking at.  Nodes that are visible from the selected node will be d
+Npcs will freeze after completing their current task.  To complete the next task, use 'ai_step' again.  To resume processing no
+Test ai los from the player's pov
+
+
+Generate a report to the console.
+Generate a report to the console.
+Changes the density of air for drag computations.
+Alias a command.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enable procedural twist bones.
+Apply a crosshair code to the current crosshair settings.
+Accept a redirect request by the server.
+Notify engine that we've finished building a map
+
+
+
+
+
+
+Audit the memory usage and files in the save-to-memory system
+Attempt to purchase items with the order listed in cl_autobuy
+Autosave
+Autosavedangerous
+
+
+
+Add a user id to the ban list.
+Add an ip address to the ban list.
+Ends gathering of info.
+Shows a dialog displaying the most recent benchmark results.
+Starts gathering of info. Arguments: filename to write results into
+Takes a snapshot of a particular frame in a time demo.
+Bind a key.
+Bind a key for osx only.
+Performs a bind <key> 'increment var <cvar> 0 1 1'
+Record an entry into the blackbox
+Bot_add <t|ct> <type> <difficulty> <name> - adds a bot matching the given criteria.
+Bot_add_ct <type> <difficulty> <name> - adds a counter-terrorist bot matching the given criteria.
+Bot_add_t <type> <difficulty> <name> - adds a terrorist bot matching the given criteria.
+Allows the bots to use all weapons
+If nonzero, bots may use grenades.
+If nonzero, bots may use the machine gun.
+If nonzero, bots may use pistols.
+If nonzero, bots may use rifles.
+If nonzero, bots may occasionally go 'rogue'. Rogue bots do not obey radio commands, nor pursue scenario goals.
+If nonzero, bots may use shotguns.
+If nonzero, bots may use sniper rifles.
+If nonzero, bots may use sub-machine guns.
+Upper bound above average human contribution score that a bot must be above to change its difficulty
+Lower bound below average human contribution score that a bot must be below to change its difficulty
+Control how bots talk. Allowed values: 'off', 'radio', 'minimal', or 'normal'.
+Sets the chance a bot has of forcefully throwing a grenade in a coop mission. 
+Max distance bots can see targets (in coop) when they are idle, dormant, hiding or asleep.
+If set to 1, will make all bots in the game crouch. Set to 0 to disable. 
+For internal testing purposes.
+For internal testing purposes.
+If nonzero and there is a human on the team, the bots will not do the scenario tasks.
+If nonzero and there is a human on the team, the bots will not get scenario items.
+Defines the skill of bots joining the game.  Values are: 0=easy, 1=normal, 2=hard, 3=expert.
+If nonzero, bots will not fire weapons (for debugging).
+Prevents bots (npc characters) from being able to move. 
+Sends a bot to the marked nav area (useful for testing navigation meshes)
+Sends a bot to the selected nav area (useful for testing navigation meshes)
+If nonzero, bots will ignore enemies (for debugging).
+Bots will not see non-bot players.
+If nonzero, bots wait until a player joins before entering the game.
+Determines the team bots will join into. Allowed values: 'any', 't', or 'ct'.
+Bot_kick <all> <t|ct> <type> <difficulty> <name> - kicks a specific bot, or all bots, matching the given criteria.
+Bot_kill <all> <t|ct> <type> <difficulty> <name> - kills a specific bot, or all bots, matching the given criteria.
+Restricts the bots to only using knives
+Bots are given these items at round start
+Max distance bots can hear targets.
+Bots will see players through smoke clouds up to this length.
+Max distance bots can see targets.
+Makes all bots relay your actions. If you jump, all bots will jump, if you shoot, all bots will shoot, etc. 
+Sets the yaw offset that bots will mimic you on. Default value is 180. 
+Restricts the bots to only using pistols
+Bot_place - places a bot from the map at where the local player is pointing.
+Determines the total number of bots in the game.
+Determines the type of quota. Allowed values: 'normal', 'fill', and 'match'. If 'fill', the server will adjust bots to keep n p
+Should bots ignore their prefered weapons and just buy weapons at random?
+Show areas where rushing players will initially meet.
+For internal testing purposes.
+Show when each nav area can first be reached by each team.
+Restricts the bots to only using sniper rifles
+Bot_stop <1|all> | <not_bomber> | <t> | <ct>
+For internal testing purposes.
+If nonzero, bots will stay in idle mode and not attack.
+Draw a debug box.
+
+
+Toggle.  Player takes damage but won't die. (shows red cross when health is zero)
+Number of frames to look at when figuring out average frametimes
+How translucent the budget panel is
+How translucent the budget panel is
+Budget bargraph range in milliseconds
+Number of samples to draw in the budget history window.  The lower the better as far as rendering overhead of the budget panel
+Budget history range in milliseconds
+Number between 0 and 1
+Height in pixels of the budget panel
+Width in pixels of the budget panel
+Number of pixels from the left side of the game screen to draw the budget panel
+Number of pixels from the top side of the game screen to draw the budget panel
+Number of frames to look at when figuring out peak frametimes
+Enable/disable averages in the budget panel
+Turn history graph off and on. . good to turn off on low end
+Enable/disable peaks in the budget panel
+Turn a budget group on/off
+Show the bug reporting ui.
+Upload attachments asynchronously
+Username to use for bugreporter
+Rebuild cubemaps.
+Indicates we're building cubemaps
+Buildmodelforworld
+Temporary solution for pinion to kick back to community map makers.
+Show or hide main buy menu
+Buy random primary and secondary. Primarily for deathmatch where cost is not an issue.
+This command controls how far away your camera be at a maximum from your camera in third person mode. Set c_mindistance to the same value to avoid third person camera stuttering. 
+This command sets your camera's maximum pitch. 
+This command sets your camera's maximum yaw. 
+This command controls how close the minimum distance your camera can be away from your character when in third person mode. Set c_maxdistance to the same value to avoid third person camera stuttering. 
+This command sets your camera's minimum pitch.
+This command sets your camera's minimum yaw. 
+
+
+
+
+
+
+
+Cache_print [section] Print out contents of cache memory.
+Cache_print_lru [section] Print out contents of cache memory.
+Cache_print_summary [section] Print out a summary contents of cache memory.
+Start a vote on an issue.
+When in thirdperson and cam_collision is set to 1, an attempt is made to keep the camera from passing though walls.
+Tells camera to change modes
+Controls the speed when matching offset to ideal angles in thirdperson view
+
+
+
+Amount of lag used when matching offset to ideal angles in thirdperson view
+
+
+When in thirdperson, print viewangles/idealangles/cameraoffsets to the console.
+
+
+
+Set to 1 when you're secondary cameraman and need to override the primary cameraman's observer target and mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This command changes how much money a player earns for defusing the bomb. It can't give more than the max amount of money you can hold in a specific server. 
+This cheat command alters how much money a player gets for planting the bomb. You can't earn more than the max money on a specific server. 
+This command sets the money lost or earned for damaging a hostage.
+This command sets the money earned or lost for getting killed by an enemy.
+This command sets the money earned or lost for interacting with a hostage.
+This command sets how much money is earned or lost by killing an enemy player with a default weapon. 
+This command sets how much money is earned or lost by killing an enemy player with one of the main weapons (default pistols, primary rifles like the AK/M4, etc) 
+This console command dictates how much money is earned or lost when a player kills a hostage. 
+This cheat command sets how much money is earned or lost for killing a teammate. 
+Sets the money earned or lost for rescuing a hostage safely in hostage mode. 
+Sets how much money players respawn with. 
+This console command sets how much money each team member earns when they eliminate all 5 enemies in a bomb defusal map , like Mirage or Dust II. 
+This console command sets how much money each team member earns on the CT side when they eliminate all 5 Terrorists on a hostage map. 
+This command sets how much money each Terrorist earns for winning a round in a hostage map by elimination. 
+This command sets the amount of money earned or lost for a hostage surviving a round.
+This console command chooses how much money is earned or lost for a player interacting with a hostage. 
+This command sets the base cash earned by a team for losing a round. This then rises in set increments, which is controlled by a separate command. 
+This console command sets the cash increase for a string of losses to climb by. Having this value at $500 (default) means each consecutive lost round awards $500 more than the previous to the losing team, up until 5 lost rounds in a row. 
+This command sets the amount of money earned or lost by a team because of having a player less.
+This command sets the amount of money the Terrorist team earns for planting a bomb that is ultimately defused. This stacks along with the round loss bonus.
+This command changes the amount of money that the whole team earns for one player rescuing the hostage. 
+This command sets the amount of money a team receives when they survive a wave in the guardian coop gamemode. 
+This command sets the amount of cash won by each player on the Terrorist team when they win a round by the bomb exploding. 
+This console command sets the amount of money the CT team earns for winning a round by defusing the bomb. 
+This cheat command changes the amount of money won by team members when they win a round by rescuing a hostage. 
+This command sets the amount of money that the CT players earn from winning a round by the time running out, meaning the Terrorists didn't get a bomb down or eliminate all the CT's in the required time limit. 
+This command sets the amount of money won by the team guarding the hostages if they win the round by not allowing any hostages to be rescued within the time limit.
+This command sets how much money each player of the consecutive-winning team will receive.
+Tests hull collision detection
+Tests collision detection
+Emits a closed caption
+Searches for soundname which emits specified text.
+Flushes async'd captions.
+Current close caption language (emtpy = use game ui language)
+Close caption linger time.
+Close caption delay before showing caption.
+Emits a random caption
+Toggles showing which blocks are pending/loaded async.
+If set, don't show sound effect captions, just voice overs (i.e., won't help hearing impaired players).
+
+Spawn airboat in front of the player.
+Spawn jeep in front of the player.
+Change server to the specified map
+Transition to the specified map in single player
+Creates a ping notification triggered by the chatwheel.
+If set one, many debug prints to help track down the tlk_idle issue. Set two for super verbose info
+Client downloads customization files
+Client uploads customization files
+Hud element to examine.
+The order in which autobuy will attempt to purchase items
+Auto-help
+Automatically switch to picked up weapons (if more powerful)
+Converts all rgb avatars in the avatars directory to png
+Converts all png avatars in the avatars directory to rgb
+This command changes how quickly your character runs backwards. 
+The amount the viewmodel lowers when running
+
+The amount the viewmodel moves side to side when running
+The amount the viewmodel moves up and down when running
+The frequency at which the viewmodel bobs.
+Adjusts how much your viewmodel & weapon bobs up when running. 
+
+Set the key to use for donation in the buy menu. 0: left control
+Set non-zero to prevent buy wheel from centering mouse into the wheel origin
+Set non-zero to prevent buy wheel from purchasing via number keys
+
+Index of the bone to follow.  -2 == disabled.  -1 == root bone.  0+ is bone index.
+
+Stores the chat filter settings 
+Clear memory of client side hints displayed to the player.
+Enable/disable clock correction on the client.
+Sets the maximum number of milliseconds per second it is allowed to correct the client clock. It will only correct this amount 
+As the clock offset goes from cl_clock_correction_adjustment_min_offset to this value (in milliseconds), it moves towards apply
+If the clock offset is less than this amount (in milliseconds), then no clock correction is applied.
+Force clock correction to match the server tick + this offset (-999 disables it).
+Show debugging info about the clock drift. 
+Maximum number of milliseconds the clock is allowed to drift before the client snaps its clock to the server's.
+Maximum number of milliseconds the clock is allowed to drift before the client snaps its clock to the server's.
+Max number of command packets sent to server per second
+Preferred teammate color
+This command sets whether or not the compass, in the Danger Zone gamemode, appears at the top of the screen (for your client only). 
+Show connection trouble hud warnings
+This command will render and count the amount of bones (bones of players and entities) on the screen, if set to 1. 
+Draws a black outline around the crosshair for better visibility
+If using cl_crosshairstyle 2, this is the ratio used to determine how long the inner and outer xhair pips will be. [inner = cl_
+If using cl_crosshairstyle 2, this is the alpha modification that will be used for the inner crosshair pips once they've split.
+If using cl_crosshairstyle 2, this is the alpha modification that will be used for the outer crosshair pips once they've split.
+If using cl_crosshairstyle 2, this is the distance that the crosshair pips will split into 2. (default is 7)
+0: always off, 1: only on default crosshair styles, 2: always on
+Set how thick you want your crosshair outline to draw (0-3)
+Recoil/aimpunch will move the user's crosshair to show the effect
+Include standing inaccuracy when determining sniper crosshair blur
+If >1 sniper scope cross lines gain extra width (1 for single-pixel hairline)
+T style crosshair
+This command sets how transparent your crosshair is on your screen. The lower the value, the less visible your crosshair is. 
+Set crosshair color as defined in game_options.consoles.txt
+Set crosshair color value for blue.
+Set crosshair color value for green.
+Set crosshair color value for red.
+This command adds a dot in the center of your crosshair. 
+This console command will adjust the size of the gap in the middle of your crosshair. The smaller the value, the smaller the gap. 
+If set to 1, the gap will update dynamically based on which weapon is currently equipped
+This command controls the length and size of the 4 lines that make up a standard crosshair. Using a low value will give your crosshair very slight lines, and using a large value makes your crosshair have very long lines. 
+0 = default, 1 = default static, 2 = accurate split (accurate recoil/spread feedback with a fixed inner part), 3 = accurate dyn
+This console command customizes the thickness of your in game crosshair. 
+Adjusts the transparency of your crosshair. 
+Cl_cs_dump_econ_item_stringtable
+This command allows you to check in on the server status. 
+Produces several statistics in your developer console about the status of your CSM. 
+This command summons a debug graph to the left side of your screen in game.
+This command sets the radius for the "Approaching Sound" in the Danger Zone gamemode. 
+This command sets the volume of the "Moving Sound" in the Danger Zone gamemode. 
+This command sets the volume of sound effects from the Danger Zone gamemode 
+
+Turn on rumble debugging spew
+Key to decrypt encrypted gotv messages
+Key to decrypt public encrypted gotv messages
+Force with which to avoid players ( in units, percentage of the width of the detail sprite )
+Radius around detail sprite to avoid players
+How fast to recover position after avoiding players
+Amplitude of the detail prop sway
+Extra details to create
+This command is used to turn ragdolling off, something that can sometimes cause dead bodies to behave weirdly as it attempts to display the animation in a more detailed way. 
+
+Turn on/off freezecam on client
+Disable html motds.
+Player will automatically receive a random weapon on spawn in deathmatch if this is set to 1 (otherwise, they will receive the 
+Determines whether downloads of external resources are allowed during demo playback (0:no,1:workshop,2:all)
+Determines which files can be downloaded from the server (all, none, nosounds)
+For drawing only the crosshair and death notices (used for moviemaking)
+Enable the rendering of the hud
+0: default
+0: default
+0: default
+1: default
+
+Draw a particular material over the frame
+
+Dump particle profiling info to particle_profile.csv
+Dumps info about a player
+Dump split screen workarounds.
+Automatically switch to spectate mode after clicking the 'play again' button in end of match screen
+Displays the client's absbox for the entity under the crosshair.
+Displays the client's bounding box for the entity under the crosshair.
+Displays the client's render box for the entity under the crosshair.
+For debugging, draw entity states to console
+Enable/disable extrapolation if interpolation history runs out.
+Set how many seconds the client will extrapolate entities for.
+Whether to use new detail sprite system
+Find and list all client entities with classnames that contain the specified substring. Format: cl_find_ent <substring> 
+Display data for clientside entity matching specified index. Format: cl_find_ent_index <index> 
+For crosshair style 1: how big to make the gap between the pips in the fixed crosshair
+For debugging. Force the engine to flush an entity packet.
+
+Whether we should force preloading.
+cl_forwardspeed [Speed]
+This movement console command is used to set the speed you run at when moving forward.
+Turn on/off freezecam's kill panel dynamic y movement
+Forces the server to send a full update packet
+Display the values of the convars for the current game_mode.
+
+Show trajectory of a grenade when pin is pulled.
+Hide avatar images for other players.  0 - off. 1 - block all 2 - block all but friends
+If set to 1, server ips will be hidden in the console (except when you type 'status')
+Allows sending http log from client main menu.
+This console command adjusts how transparent some areas of your HUD (heads up display) appear on your screen. An example of this is how visible the shaded box is behind your current amount of money to the left of your screen. 
+This command toggles whether or not your HUD (heads up display) includes the image of a bomb underneath your radar whenever you are carrying the bomb. 
+0 = default, 1 = light blue, 2 = orange, 3 = green, 4 = purple, 5 = white.
+This command is used to toggle between whether or not you want your health & armor bars at the bottom of your screen to show their numeric value (e.g 80 health) and a bar to represent this, or just show the number. 
+0 = default (top), 1 = bottom
+0 = show player avatars (default), 1 = just show count number (no avatars)
+This useful console command controls how much room in your HUD your radar takes up. You can choose to make it a smaller feature or larger than the default value. 
+This console command adjusts the pitch of the sound in game, and can cause shooting bullets sound different to usual. 
+Force client to ignore packets (for debugging).
+Sets the interpolation amount (bounded on low side by server interp ratio settings).
+Sets the interpolation amount (final amount is cl_interp_ratio / cl_updaterate).
+Enables or disables interpolation on listen servers or during demo playback
+
+
+
+If turned on, will ignore in-game invites from recent teammates or other non-friends
+If turned on, will ignore all invites when user is playing a match
+2: use render-targets, fallback to cache and disk; 1: no render targets, but use cache and fallback to disk; 0: disk assets onl
+Display physics-based 'jiggle bone' debugging information
+Display physics-based 'jiggle bone' debugging information
+Display physics-based 'jiggle bone' debugging information
+
+Advertise joinable game in progress to steam friends, otherwise need a steam invite (2: all servers, 1: official servers, 0: no
+Perform server side lag compensation of weapon firing events.
+This command produces a display in the top right of your screen that cycles through the various entities in use by showing their file names. 
+Using this command will tell you in your developer console exactly where you're standing on your current map. It can also make your screen turn black. Simply enter the command cl_leveloverview 0 to fix that. 
+
+This command, if set to 1 (and cheats are enabled), will lock your camera in position. When you look around, your viewmodel will still move, but your camera will stay fixed. Default is 0 (disabled). 
+
+Cl_matchstats_print_own_data rangename
+Max distance from the camera at which things will be rendered
+
+Reloads the panel metaclasses for vgui screens.
+Set to 1 to use mouse for look, 0 for keyboard look. Cannot be set while connected to a server.
+Only allow communication from friends and matchmaking party members. Set to 1 to apply the in non-competitive game modes. Set t
+Block all communication from players on the enemy team.
+Enables interpolation between observer targets
+Control the crosshair shown when observing a bot. 0: show player crosshair. 1: show player crosshair only when bot can be taken
+This is the console command that controls whether or not you have a crosshair when spectating/observing players. 
+This console command covers your screen with a foggy grey panel, making it difficult to see anything and can slow your fps. To turn it off, use the command cl_overdraw_test 0. 
+Shows panel animation variables: <panelname | blank for all panels>.
+Auto-deploy parachute if fall speed exceeds lethal limit
+
+
+Dump all new particles, optional name substring.
+This command produces several green boxes around the map displaying their C_FUNC values. You can produce more boxes by shooting your weapon. 
+This command highlights areas of the game being adjusted by what you're doing. For example, shooting your gun will highlight your gun barrel and the bullet holes your shots create. 
+Dump entity by prediction classname.
+Dump info about this entity to screen.
+
+Sets the scale of time for client-side physics (ragdolls)
+Distance from the crosshair over which the ping is completely invisible
+Distance from the crosshair over which the ping fades
+This fun command controls how many degrees down from eye level you can move your camera. That means you can edit this command to allow you to look under you, effectively looking through your character model's legs at what is behind you. 
+This fun console command controls how many degrees from eye level you can look up into the sky. This can be adjusted to let you look so far around that you end up seeing behind you. 
+If 1, player pinging will make a sound, if 0, pings will be silent
+This command, if set to 1, can be used to debug player proximity. Default is 0 (disabled). 
+Automatically apply graffiti when graffiti menu closes
+Use new dissolve effect
+Show precache info (client).
+<entindex> <fieldname>:  track changes to entity index entindex, for field fieldname.
+Perform client side prediction.
+Describe datamap_t for entindex
+Show which entities are predicting 
+Perform client side prediction of weapon effects.
+
+Cl_quest_events_print
+Cl_quest_schedule_print
+
+
+If set to 0, the radar is maximally used. Otherwise the player is always centered, even at map extents.
+Sets the minimum icon scale. Valid values are 0.4 to 1.25.
+This command toggles whether or not your radar rotates as you rotate and look around with your camera. Some players find disabling this feature makes it easier to use the radar. 
+Sets the radar scale. Valid values are 0.25 to 1.0.
+If set, the radar will toggle to square when the scoreboard is visible.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sets the gravity client-side ragdolls
+Mainly cosmetic, client-only effect: when client doesn't know the last position of another player that spawns a ragdoll, the ra
+
+The order in which rebuy will attempt to repurchase items
+Reloads the hud scale and resets scale and borders
+This commands reloads post processor commands from the targeted file in the command. 
+Removes all maps from the workshop directory.
+Use this console command to remove old UGC downloads from your game files. 
+Remove the decals from the entity under the crosshair.
+Reports client-side sound patch count
+Delay in seconds before the client will resend the 'connect' attempt
+Total time allowed for the client to resend the 'connect' attempt
+Use right-handed view models.
+Scale sensitivity of rumble effects (0 to 1.0)
+Hide names and avatars of muted players.
+Replace names of other players with something non-offensive.
+Name of the binding to enable mouse selection in the scoreboard
+
+When enabled, 360x60 (<16kb) image file will be displayed to on-server spectators.
+When enabled, 220x45 (<16kb) image file will be displayed to on-server spectators.
+
+Is set, the clan name will show next to player names in the death notices.
+Show the crosshair of the player being observed. 0: off 1: friends and party 2: everyone 
+
+
+Show activities in the (client) animation state display.
+Dump entity list to console.
+Show prediction errors, 2 for above plus detailed field deltas.
+Print event firing info in the console
+Draw fps meter (1 = fps, 2 = smooth, 3 = server, 4 = show+logtofile, 5 = thread and wait times +10 = detailed )
+Set to 0 to not show on-screen help
+Toggles display of current loadout.
+Allow plugins to display messages to you
+Draw current position at top of screen
+
+Draw trajectory of the deployed grenade if thrown from this position. Takes an optional parameter for how long the drawn trajec
+Set to 1 to stop all models that go through the model fast path from rendering
+Set to 1 to skip any models that don't go through the model fast path
+
+
+
+Flushes the sounds.txt system (server only)
+Flushes the sounds.txt system
+Flushes the client side soundscapes
+Print soundscapes
+0 = lalt, 1 = lshift, 2 = +reload
+Saves the last viewed spectator mode for use next time we start to spectate
+Toggle the visibility of the spectator bindings.
+This command is used to hide or show stats in spectator mode, something many observers choose to hide. 
+Toggle set the player names and team names to the opposite side in which they are are on the spectator panel.
+
+
+Print origin in script format
+Enable/disable saving screenshots to steam
+
+This command sets the horizontal scale of the sun in reflections (in water, etc). Default is 2. 
+This command sets the vertical scale of the sun in reflections (in water, etc). Default is 2. 
+Set to values greater than 0 for ortho view render projections.
+This command sets your tablet's map mode (how the tablet displays) in Danger Zone. Map mode 1 will rotate based on where your character is facing, map mode 2 will not rotate and will always face north. 
+Max distance at which the overhead team id icons will show
+Max distance at which the overhead team id icons will show when a spectator
+Always show team id over teammates. 1 = pips; 2 = pips, name, and equipment
+In competitive, 1 = show teammates as separate colors in the radar, scoreboard, etc., 2 = show colors and letters
+Enable parallel processing of bones
+After this many seconds without receiving a packet from the server, the client will disconnect itself
+Sets tree sway wind direction and strength
+Number of packets per second of updates you are requesting from the server
+Updates visibility bits.
+Arguments are parameters that you add to a command. Find information about this command's arguments below. 
+This command dictates whether or not your head bobs as you run. It can't be adjusted in matchmaking, but you can in private servers with cheats. 
+Pressing the +use key will open the buy menu if in a buy zone (just as if you pressed the 'buy' key).
+
+Set the view entity index.
+The amount the viewmodel shifts to the left when shooting accuracy increases.
+The amount the viewmodel shifts to the right when shooting accuracy decreases.
+Filter voice traffic, e.g.: 'steamids:765123,765456,7651244'
+
+
+
+
+Draws a circle representing the effective range with every shot.
+
+Weather effects wind direction angle
+Weather effects wind speed scalar
+This fun command adjusts how much your gun sways when you look around with the camera. On law values the weapon will hardly move, and at high values a slight movement will have your gun flying around. 
+Clear all console output.
+Clears the animation cache, freeing the memory (until the next time a streaming animblock is requested).
+This command clears/removes any bomb(s) that have been planted, halting the countdown. 
+Clears debug overlays
+Host game client port
+Enable close captioning.
+Set non-zero to close the buy menu after buying something
+
+Toggle clutch mode convar
+Forward command to server.
+Sets userinfo string for split screen player in slot 1
+Sets userinfo string for split screen player in slot 2
+Sets userinfo string for split screen player in slot 3
+Sets userinfo string for split screen player in slot 4
+Tests collision system
+Show/hide the color correction tools ui.
+
+
+
+
+
+Display the commentary model viewer. Usage: commentary_showmodelviewer <model name> <optional attached model name>
+
+Allows the notification area to be visible.
+Allows the console to be activated.
+Filters console output based on the setting of con_filter_text. 1 filters completely, 2 displays filtered text brighter than ot
+Text with which to filter console spew. Set con_filter_enable 1 or 2 to activate.
+Text with which to filter out of console spew. Set con_filter_enable 1 or 2 to activate.
+Console output gets written to this file
+Minimum severity level for messages sent to any logging channel: ls_message=0, ls_warning=1, ls_assert=2, ls_error=3.
+Prefix console.log entries with timestamps
+Dump the text currently in the console to condumpxx.log
+Connect to specified server.
+Amount of contribution score added for an assist
+Amount of contribution score for defusing a bomb while at least one enemy remains alive
+Amount of contribution score for defusing a bomb after eliminating enemy team
+Amount of contribution score awarded to bomb planter and terrorists remaining alive if bomb explosion wins the round
+Amount of contribution score for planting a bomb
+Amount of contribution score for picking up a cash bundle
+Amount of contribution score for breaking an item crate
+Amount of contribution score for killing a hostage, normally negative
+Amount of contribution score added to rescuer per hostage rescued
+Amount of contribution score added to all alive cts per hostage rescued
+Amount of contribution score added for a kill
+Percentage of victim's contribution score to award to their killer as a bonus
+Amount of contribution score added for an objective related kill
+Amount of contribution score for a suicide, normally negative
+Amount of contribution score for a team kill, normally negative
+Set cpu frequency monitoring interval in seconds. Zero means disabled.
+Cause the engine to crash (debug!!)
+
+Create a prediction error
+
+
+This command toggles player physics boxes on and off. 
+This command alters how far away you need to be from rescuing a hostage for the rescue music to start playing. 
+Marks a player as the vip
+Cs_showstatetransitions <ent index or -1 for all>. Show player state transitions.
+Defines how frequently the server notifies clients that a player damaged a friend
+Downloads a match via serial code and starts playback
+
+
+
+
+
+
+
+
+Bot difficulty for offline play.
+Draw the behavior tree of the given bot.
+Draw hiding spots.
+Draw the hiding spot the bot will check next.
+Show the list of convars/concommands.
+Add a line to the debug history. Format: <category id> <line>
+Dump the debug history to the console. Format: <category id>     Categories:      0: entity i/o      1: ai decisions      2: sc
+Create debug box
+Create debug boxes for invalid displacements
+
+Prints crc for each map lump loaded
+Purchase an item by defindex
+Activating this command attempts to debug the visiblity monitor. 
+
+Skips to location in demo.
+Skips to a tick in demo.
+If to use demo index. Needs to be set before loading demo.
+Limits the the count of index files of other (non-current) demos. Needs to be set before loading demo.
+Print information about currently playing demo.
+List all highlights data for the demo.
+List all important ticks in the demo.
+Pauses demo playback.
+Record commands typed at console into .dem files.
+Resumes demo playback.
+
+Sets demo replay speed.
+Toggles demo playback.
+Print demo sequence list.
+Demo demo file sequence.
+Show/hide the demo player ui.
+Set developer message level
+Used by the devshots system to go to the next map in the devshots maplist.
+Used by the -makedevshots system to take a screenshot. For taking your own screenshots, use the 'screenshot' command instead.
+Show all convars which are not at their default values.
+Disconnect game from server.
+List all collideable displacements
+Displays how much time has elapsed since the game started
+This command, if enabled, will print the name of each event that is fired in your game. E.g. when a bomb is dropped, "bomb_dropped" will be printed to console, when a player footstep noise is made, "player_footstep" will be printed to console. 
+Creates a dlight in front of the player
+
+Turns random weapons in deathmatch on/off
+Draws a cross at the given location arguments: x y z
+Draws line between two 3d points. green if no collision red is collides with something arguments: x1 y1 z1 x2 y2 z2
+Draws the overview map
+Draws hud radar
+Re-reads web api auth key and subscribed file lists from disk and downloads the latest updates of those files from steam
+
+
+
+
+
+
+
+
+
+
+
+
+Write out the datatable instrumentation files (you must run with -dti for this to work).
+
+
+Print sizeof(entclass)
+Dump all global entities/states
+Prints out all valid panorama css properties and their documentation
+Prints out mem stats of all valid panorama css properties
+Print panorama event types and their documentation
+Print panorama js scopes, such as classes, and their associated methods. (wiki table format)
+
+Dump the list of particles loaded.
+Lists all entity factory names.
+Dump the contents of the entity i/o event queue to the console.
+Dump the contents of the game string table to the console.
+Print string tables to console.
+Clear all dz teams
+Dz_jointeam team# [userid#|name] - join dz team n (0 to leave your team).  Server admins can assign other players to teams.
+Shuffle all teams for danger zone
+
+Echo text to console.
+Renders and saves images for all models in a collection.
+Clear the local inventory images (they will regenerate)
+Lists the item definitions that have a specified tag.
+Edit a recorded demo file (.dem ).
+Disables the simulation and returns focus to the editor
+Enable rendering of debug overlays
+Turns denormals-are-zeroes and flush-to-zero on or off
+Render skeletons in wireframe
+Votes for the next map at the end of the match
+Stop recording movie frames.
+End the current round.
+
+Displays the total bounding box for the given entity(s) in green.  Some entites will also display entity specific overlays. ar
+Displays the attachment points on an entity. arguments:   {entity_name} / {class_name} / no argument picks what player is loo
+Displays the entity's autoaim radius. arguments:   {entity_name} / {class_name} / no argument picks what player is looking at
+Displays the movement bounding box for the given entity(ies) in orange.  Some entites will also display entity specific overlay
+Cancels all ent_fire created outputs that are currently waiting for their delay to expire.
+Creates an entity of the given type where the player is looking.
+Usage:    Ent_dump <entity name> 
+Usage:    Ent_fire <target> [action] [value] [delay] 
+Usage:    Ent_info <class name> 
+Applies the comma delimited key=value pairs to the entity with the given hammer id. format: ent_keyvalue <entity id> <key1>=<v
+Reports all list of all entities in a map, one by one
+Toggles input/output message display for the selected entity(ies).  The name of the entity will be displayed as well as any mes
+Visualizes all entity input/output activity.
+
+Orient the specified entity to match the player's angles. By default, only orients target entity's yaw. Use the 'allangles' opt
+Toggles pausing of input/output message processing for entities.  When turned on processing of all message will stop.  Any mess
+Displays the pivot for the given entity(ies). (y=up=green, z=forward=blue, x=left=red).  arguments:   {entity_name} / {class
+Displays the total bounding box for the given entity(s) in green.  Some entites will also display entity specific overlays. ar
+Removes the given entity(s) arguments:   {entity_name} / {class_name} / no argument picks what player is looking at 
+Removes all entities of the specified type arguments:   {entity_name} / {class_name} 
+Rotates an entity by a specified # of degrees
+Dumps the names and values of this entity's script scope to the console arguments:   {entity_name} / {class_name} / no argume
+Set entity angles
+Sets the targetname of the given entity(s) arguments:   {new entity name} {entity_name} / {class_name} / no argument picks wh
+Move entity to position
+Print, to the console, an entity's current criteria set used to select responses. arguments:   {entity_name} / {class_name} /
+When 'ent_pause' is set this will step through one waiting input / output message at a time.
+Teleport the specified entity to where the player is looking. format: ent_teleport <entity name>
+Displays text debugging information about the given entity(ies) on top of the entity (see overlay text) arguments:   {entity_
+Displays the eye position for the given entity(ies) in red. arguments:   {entity_name} / {class_name} / no argument picks wha
+
+Escape key pressed.
+Execute script file.
+Execute script file if file exists.
+Execute script file, only execing convars on a whitelist.
+Exit the engine.
+Equips or removes exojump
+Kills the player with explosive damage
+Kills a player applying an explosive force. Usage: explodevector <player> <x value> <y value> <z value>
+Fadein {time r g b}: fades the screen in from black or from the specified color over the given number of seconds.
+Fadeout {time r g b}: fades the screen to black or to the specified color over the given number of seconds.
+If friendly fire is off, this will scale the penetration power and damage a bullet does when penetrating another friendly playe
+Enables or disables team damage from decoy detonation
+Enables or disables team damage from thrown grenade impacts
+How much to reduce damage done to teammates when shot.  Range is from 0 - 1 (with 1 being damage equal to what is done to an en
+How much to reduce damage done to teammates by a thrown grenade.  Range is from 0 - 1 (with 1 being damage equal to what is don
+How much to damage a player does to himself with his own grenade.  Range is from 0 - 1 (with 1 being damage equal to what is do
+How much to reduce damage done to teammates by things other than bullets and grenades.  Range is from 0 - 1 (with 1 being damag
+Find concommands with the specified string in their name/help text.
+Find and list all entities with classnames or targetnames that contain the specified substring. Format: find_ent <substring> 
+Display data for entity matching specified index. Format: find_ent_index <index> 
+Find concommands by flags.
+
+Switch to firstperson camera.
+Show debug info for fish
+Turns off interactive fish behavior. Fish become immobile and unresponsive.
+Flush unlocked cache memory.
+Flush unlocked and locked cache memory.
+
+
+
+
+
+
+
+
+
+
+
+Overrides the map's fog settings (-1 populates fog_ vars with map's values)
+
+
+Show/hide fog control ui.
+Keeps track of whether we're forcing english in a localized language.
+
+Bind a command to an available key. (forcebind command opt:suggestedkey)
+
+
+Give the engine control of the mouse.
+Give the control of the mouse back to hammer.
+Select the entity under the crosshair or select entities with the specified name.
+Move hammer's 3d view to the same position as the engine's 3d view.
+Updates the entity's position/angles when in edit mode
+Sets the view fov if cheats are on.
+Sets the gotv view custom fov in roaming view.
+Frame rate limiter
+Frame rate limiter, main menu
+While the fps is below the threshold we will dump a screen shot this often in seconds (i.e. 10 = screen shot every 10 seconds w
+Dump a screenshot when the fps drops below the given value.
+0: disallow writes to filesystem locations we don't own. 1: allow such writes (potentially unsafe).
+Clear the list of files that have been opened.
+Set fs_report_long_reads 1 before loading to use this. Prints a list of files that were opened more than once and ~how long was
+Cancels all the prefetches in progress.
+Flushes the fios hdd cache.
+Prefetches a file: </ps3_game/usrdir/filename.bin>. The preftech is medium priority and persistent.
+Prefetches a file in a pack: <portal2/models/container_ride/finedebris_part5.ani>. The preftech is medium priority and non-pers
+Displays all the prefetches currently in progress.
+Show all files currently opened by the engine.
+0:off, 1:always, 2:not during map load
+Display current filesystem whitelist state
+Force the 360 to get updated files that are in your p4 changelist(s) from the host pc when running with -dvddev.
+Set the filesystem warning level.
+
+Use new style sparks. 
+Spew player data.
+Reloads the logitech g-15 keyboard configs.
+Logitech g-15 keyboard update interval.
+
+Enable debug printing about constraint sounds.
+
+
+
+
+
+
+
+
+The current game mode (based on game type). See gamemodes.txt.
+The current game type. See gamemodes.txt.
+Gives a list of all currently open lessons.
+Display in game lessons that teach new players.
+Set to 1 and the game instructor will run every scripted command to uncover errors.
+Shuts down all open lessons and reloads them from the script file.
+Resets all display and success counts to zero.
+Set to 0 to disable save/load of open lesson opportunities in single player.
+Set to 1 for standard debugging or 2 (in combo with gameinstructor_verbose_lesson) to show update actions.
+Display more verbose information for lessons have this name.
+Issue game menu command.
+
+
+
+
+
+
+Shows the game ui
+Escape key allowed to hide game ui
+Escape key allowed to show game ui
+Hides the game ui
+Escape key doesn't hide game ui
+Escape key doesn't show game ui
+Dump position and angles to the console
+Dump origin and angles to the console
+Give item to player. arguments: <item_name>
+Give a supply of ammo for current weapon.. 
+Clear the back buffer to random colors every frame. Helps spot open seams in geometry.
+Map/mode-specific responserules criteria used by calls to util_globalchatter
+Enables the global event log system
+Global_set <globalname> <state>: sets the state of the given env_global (0 = off, 1 = on, 2 = dead).
+Enable entity outline glow effects.
+Width of glow outline effect in screen space.
+Toggle. Player becomes invulnerable.
+Toggle. All players become invulnerable.
+Enables gotv theater mode for the specified container, setting it to 'live' will play top live matches
+
+
+
+
+
+
+Display ground entity list <index>
+Updates the entity's position/angles when in edit mode
+Updates entities in the map that can safely be updated (don't have parents or are affected by constraints). Also excludes entit
+This command, if set to 1 (default) will allow players to use healthshots when already at maximum health. Set to 0 to disallow. 
+This command sets the amount of health that a healthshot heals. 
+This command sets the damage multiplier for damage dealt by a player after having consumed a healthshot. The damage they deal will be multiplied by this number. The amount of time this applies for is set by the healthshot_healthboost_time cvar. 
+This command sets the speed multiplier for a player after having consumed a healthshot. Their movement speed will by multiplied by this number. The amount of time this applies for is set by the healthshot_healthboost_time cvar. 
+This command sets the amount of time, in seconds, that a player receives healthboost for after consuming a healthshot. This is also the amount of time that the damage and speed multipliers will have an effect for. 
+Force heartbeat of master servers
+Find help about a convar/concommand.
+Hide the console.
+Hide the HUD.
+Hides the overview map
+Hides a viewport panel <name>
+Hides hud radar
+Forcibly hide score panel
+Show killer replay status and some statistics, works on listen or dedicated server.
+Dumps time spent idle in previous frames in ms(dedicated only).
+Memory threshold below which the host should flush caches between server instances
+Set to lock per-frame time elapse.
+How server info gets disclosed in server queries: 0 - query disabled, 1 - show only general info, 2 - show full info
+Current map name.
+Whether hostname is recorded in game events and gotv.
+How players are disclosed in server queries: 0 - query disabled, 1 - show only max players count, 2 - show all players
+Reset config (for testing) with param as splitscreen index.
+How server rules get disclosed in server queries: 0 - query disabled, 1 - query enabled
+Run off some time without rendering/updating sounds 
+Force the host to sleep a certain number of milliseconds each frame.
+Spew cpu timer jitter for the last 128 frames in microseconds (dedicated only)
+Prescale the clock by this amount.
+Get the latest version of maps in a workshop collection and host them as a maplist.
+Get the latest version of the map and host it on this server.
+Store current settings to config.cfg (or specified .cfg file).
+Store current settings to config.cfg (or specified .cfg file) with first param as splitscreen index.
+Show hostage ai debug information
+When set, the hostage won't play any code driven response rules lines
+The host file to load.
+Host game server ip
+Hostname for server.
+Host game server port
+Reloads hud layout and animation scripts.
+Scales hud elements
+Enables display of target names
+Plays the subtitles: <filename>
+Auto-save a scoreboard screenshot at the end of a map.
+Hurts the player. arguments: <health to lose>
+Spew ime hkl info.
+Spew ime info.
+Spew ime supported info.
+This command has a set of pre-defined effects, the one that will be applied is determined by the impulse # you provide as an argument. For exmaple, impulse 101 gives you maximum money.  
+Force user input to this split screen player.
+Increment specified convar value.
+Amount spawn interval increases for each child
+This console command adjusts the max depth of the child spawn count in molotov and incendiary grenades. 
+Damage per second
+This command attemps to debug issues that molotov and incendiary grenades may develop. If you notice any issues with them in your game, try using this command. 
+Inferno dlights are at least this far apart
+Average lifetime of each flame in seconds
+Minimum distance between separate flame spawns
+This console command changes the forward reduction factor used in molotov and incendiary grenades. 
+For this long, ff is credited back to the thrower.
+Time between spawning flames for first fire
+Largest time interval for child flame spawning
+Maximum number of flames that can be created
+Maximum distance flames can spread from their initial ignition point
+Duration each new flame will attempt to spawn new flames
+You can use this console command to prevent molotovs and incendiary grenades you throw from leaving scorch decals (scorch marks) on the ground once they burn out. 
+Angular change from parent
+
+
+
+
+This command switches to the next item in your inventory. If you have your rifle equipped it will swap to your pistol, and if you have your pistol equipped it will swap you to your knife. 
+This command switches what you have equipped to the next grenade in your inventory. That means if your rifle is drawn you will switch to a grenade, and then using the command again will cycle you through to the next available grenade on you.
+This command switches to the next item in your inventory. This does not include guns, so will move between items such as your knife and grenades only. 
+This command equips the next item in your inventory that isn't a grenade. It also ignores knives, so will only switch between the guns you have in your inventory. 
+This command works backwards through your inventory, equipping you with the item that is the previous selection of what you currently have out. That means that using this command when you have your knife out equips your pistol, and using it with your pistol out equips your rifle (if you have one). 
+Overrides ip for multihomed hosts
+Overrides ip used to redirect tv relay connections for nat hosts
+Overrides ip used to bind steam port for multihomed hosts
+Overrides ip used to bind tv port for multihomed hosts
+Overrides ip used to bind tv1 port for multihomed hosts
+Disable ipc console(s)
+Disable all ipc consoles
+Enable ipc console
+Show status of ipc consoles
+
+
+Outputs item time data to server log and clears data.
+
+
+
+
+
+
+
+
+
+
+
+
+How much to scale user stick input when the gun is pointing at a valid target.
+
+The stick range where autoaim dampening is applied. 0 = off
+Analog axis range before a button press is registered.
+
+
+
+
+
+
+
+Pov manipulator operates on diagonal axes, too.
+
+
+
+
+Whether to invert the y axis of the joystick for looking.
+
+
+
+Which stick controls movement : 0 = left stick, 1 = right stick, 2 = legacy controls
+
+
+Joystick pitch sensitivity
+
+'look' stick response mode: 0=default, 1=acceleration promotion
+'look' stick response mode for pitch: 0=default, 1=acceleration promotion
+'movement' stick response mode: 0=linear, 1=quadratic, 2=cubic, 3=quadratic extreme, 4=power function(i.e., pow(x,1/sensitivity
+
+
+
+
+
+Wingman warrior centering hack.
+Wingman warrior hack related to turn axes.
+Joystick yaw sensitivity
+
+
+True if the joystick is enabled, false otherwise.
+Prevents any and all joystick input for cases where a piece of hardware is incorrectly identified as a joystick an sends bad si
+Sets controllers enabled/disabled just before the config is written.
+Take a jpeg screenshot:  jpeg <filename> <quality 1-100>.
+
+
+Tests spatial partition for entities queries.
+Find key bound to specified command string.
+List bound keys with bindings.
+Updates game keyboard layout to current windows keyboard setting.
+Kick a player by name.
+Kick a player by userid or uniqueid, with a message.
+Kick a player by userid or uniqueid, provide a force-the-kick flag and also assign a message.
+Kills the player with generic damage
+Shutdown the server.
+Kills a player applying force. Usage: killvector <player> <x value> <y value> <z value>
+
+
+This console command immediately equips the weapon/item you took out most recently in your inventory. 
+Launches warmup map
+
+
+Show texture color at crosshair
+
+Samples the lighting environment. Creates a cubemap and a file indicating the local lighting in a subdirectory called 'material
+Parses map leak data from .lin file
+List demo file contents.
+Lists banned users.
+List ip addresses on the ban list.
+List all the issues that can be voted on.
+List loaded models.
+Displays a list of the last 5 lines of speech from npcs.
+Load a saved game.
+This command loads in any game commentary that is saved. It can also open your game menu as well. 
+
+Lobby default permissions (0: private, 1: public)
+Localization_quest_item_string_printout
+Arguments are parameters that you add to a command. Find information about this command's arguments below. 
+Arguments are parameters that you add to a command. Find information about this command's arguments below. 
+Arguments are parameters that you add to a command. Find information about this command's arguments below. 
+Enables logging to file, console, and udp < on | off >.
+Set the color of a logging channel.
+Dumps information about all logging channels.
+Set the flags on a logging channel.
+Set the spew level of a logging channel.
+Set address and port for remote host <ip:port>.
+Set address and port for remote host <ip:port> and supplies a unique token in the udp packets.
+Set uri of a listener to receive logs via http post. Wrap uri in double quotes.
+Set a delay and uri of a listener to receive logs via http post. Wrap uri in double quotes.
+Set address and port for remote host <ip:port> and uses a unique checksum from logaddress_token_secret in the udp packets.
+Remove address and port for remote host <ip:port>.
+Remove all udp addresses being logged to
+Remove all http listeners from the dispatch list.
+List all addresses currently being used by logaddress.
+List all uris currently receiving server logs
+Set a secret string that will be hashed when using logaddress with explicit token hash.
+
+
+
+
+
+
+
+
+This console command should begin to run the single player maps in CS:GO on a loop, though it can be faulty and not work. 
+Custom mouse acceleration: 0: custom accelaration disabled 1: mouse_acceleration = min(m_customaccel_max, pow(raw_mouse_delta, 
+Mouse move is raised to this power before being scaled by scale factor.
+Max mouse move scale factor, 0 for no limit
+Custom mouse acceleration value.
+Mouse forward factor.
+Windows mouse acceleration initial threshold (2x movement).
+Windows mouse acceleration secondary threshold (4x movement).
+Windows mouse acceleration (0 to disable, 1 to enable [windows 2000: enable initial threshold], 2 to enable secondary threshold
+Mouse pitch factor.
+Use raw input for mouse input.
+Mouse side factor.
+Mouse yaw factor.
+Start playing on specified map.
+Runs a map as the background to the main menu.
+Start playing, with commentary, on a specified map.
+This command may not work. It should load the specified map in edit mode. 
+Sets the bomb radius for the map.
+Shows bomb radius from the center of each bomb site and planted bomb.
+Shows player spawn points (red=invalid). Optionally pass in the duration.
+Repeats the same map after each match instead of using the map cycle
+Specify a map group
+Allow a client to draw on the map overview
+When set to 1, allows turning on the (experimental) grid for drawing.
+Sets the icon scale multiplier for the overview map. Valid values are 0.5 to 3.0.
+Displays list of maps.
+
+
+
+
+
+
+
+
+
+
+
+Forces color correction entities to be updated on the client
+
+Show the current video control panel config for the material system
+Display the name of the material under the crosshair
+Open the material under the crosshair in the editor defined by mat_crosshair_edit_editor
+Open the material under the crosshair in explorer and highlight the vmt file
+Print the material under the crosshair
+Reload the material under the crosshair
+Show memory usage for custom weapon materials.
+
+0 = off, 1 = show post-processing passes in quadrants of the screen, 2 = only apply post-processing to the centre of the screen
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bring up the material under the crosshair in the editor
+
+
+
+
+
+
+
+Override. Old default was 3.0
+Override. Old value was 2.0
+Override. Old default was 60.
+
+
+
+Force frame syncing to lock a managed texture.
+
+Report if hdr is enabled for debugging
+
+
+Shows material system info
+Draw wireframe of: [0] nothing, [1] current leaf, [2] entire vis cluster, or [3] entire pvs (see mat_leafvis_draw_mask for what
+
+
+
+
+
+
+
+
+
+Monitor gamma (typically 2.2 for crt and 1.7 for lcd)
+
+
+
+
+
+
+Power savings mode
+
+
+The queue/thread mode the material system should use: -1=default, 0=synchronous single thread, 1=queued single thread, 2=queued
+
+Report thread stalls.  Positive number will filter by stalls >= time in ms.  -1 reports all locks.
+Reloads all custom materials
+Reloads all materials
+Reloads a single material
+Reloads all textures
+
+Set to n to count how many faces each model draws each frame and spew the top n offenders from the last 150 frames (use 'mat_re
+'mat_rendered_faces_spew <n>' spew the number of faces rendered for the top n models used this frame (mat_rendered_faces_count 
+Reports the amount of size in bytes taken up by hardware morph textures.
+Enable depth resolve to a texture. 0=disable, 1=enable via resolve tricks if supported in hw, otherwise disable, 2=force extra 
+
+Saves current video configuration to the registry
+Sets the width, height, windowed state of the material system
+Display count of all shaders and reset that count
+
+Display the texture memory usage on the hud.
+
+
+
+Show materials.
+Show materials (verbose version).
+Color-code miplevels 2: normalmaps, 1: everything else
+Show used textures.
+
+
+
+Print all vertex and pixel shaders currently loaded to the console
+
+
+
+
+
+
+
+
+For debugging, show a list of used textures per frame
+
+The content path to the materialsrc directory. If left unset, it'll assume your content directory is next to the currently runn
+'load' - loads the exclude list file, 'reset' - resets all loaded exclude information, 'save' - saves exclude list file
+Adjust lod of the last viewed texture +1 to inc resolution, -1 to dec resolution
+'reset' - resets all run-time changes to lod overrides, 'save' - saves all changes to material content files
+0 = original algorithm 1 = new algorithm
+Updates the video config convars
+Scale down the main viewport (to reduce gpu impact on cpu profiling)
+Scale the viewport back up
+
+
+Change the maximum number of players allowed on this server.
+Percentage of half the screen width or height.
+0 to 0.9. 0 being just around the center of the screen and 1 being the edges of the screen.
+(degrees/sec)
+(degrees/sec)
+Dump the state of the mdlcache dictionary.
+
+Dump memory stats to text file.
+Dump vb memory allocation stats.
+
+
+Rate at which to attempt internal heap compation
+
+Dumps the memory used by vcollides
+Verify the validity of the heap
+Print memory stats.
+Menuselect
+Saves game (for current level only!)
+When performing csgo community matchmaking look for servers with at least so many human players
+Shows information retrieved from data center
+Show debug information about current matchmaking session
+Comma delimited list of ip:port of servers used to search for dedicated servers instead of searching for public servers. Use sy
+Longest preferred ping to dedicated servers for games
+Shows information about dlc
+Display global server stats
+Ports to scan during lan games discovery. Also used to discover and correctly connect to dedicated lan servers behind nats.
+
+
+
+
+Debug spew for combiner info
+Dumps the weapon view model cache contents
+Dumps the weapon world model cache contents
+
+The motd file to load.
+
+
+
+
+
+
+
+
+Fixup corrupted .wav file if engine crashed during startmovie/endmovie, etc.
+Amount of money awared to every player after each round
+If set, everyone can pick up the c4, not just ts.
+Kick idle/team-killing/team-damaging players
+This command can be used to enable or disable the auto team balance feature. This feature will swap players around teams at the end of a round if there are an unequal amount of players on either time (i.e. if team A has 1 player and team B has 3, at the end of the round, 1 player from team B would be automatically moved over to team A). 
+Lists recent backup round files matching the prefix, most recent files first, accepts a numeric parameter to limit the number o
+Whether to automatically pause the match after restoring round data from backup
+Loads player cash, kda, scores and team scores; resets to the next round after the backup
+If enabled will keep in-memory backups to handle reconnecting players even if the backup files aren't written to disk
+If set then server will save all played rounds information to files filename_date_time_team1_team2_mapname_roundnum_score1_scor
+Every time a backup file is written the value of this convar gets updated to hold the name of the backup file.
+If set then server will save all played rounds information to files named by this pattern, e.g.'%prefix%_%date%_%time%_%team1%_
+Use the specified behavior tree file to drive the bot behavior.
+Clears the cache for behavior tree files.
+Whether players can purchase grenades from the buy menu or not.
+Whether players can purchase guns: pistols (1), smgs (2), rifles (4), shotguns (8), sniper rifles (16), heavy mgs (32).
+When set, players can buy anywhere, not only in buyzones. 0 = default. 1 = both teams. 2 = terrorists. 3 = counter-terrorists.
+When set, players can buy when immune, ignoring buytime. 0 = default. 1 = both teams. 2 = terrorists. 3 = counter-terrorists.
+How many seconds after round start players can buy items for.
+If set, the planted c4 cannot be defused.
+How long from when the c4 is armed until it blows
+After a competitive match finishes rematch voting extra time is given for rankings.
+How loss streak is affected with round win: 0 = win fully resets loss bonus, 1 = first win steps down loss bonus, 2 = first win
+This command is used to set how many rounds in a row it takes for teams to start earning the max loss bonus. 
+If set, real players will auto join ct on join.
+The difficulty offset modifier for bots during coop missions.
+Which mission the map should run after it loads.
+The default grenades that the cts will spawn with.  To give multiple grenades, separate each weapon class with a space like thi
+The default melee weapon that the cts will spawn with.  Even if this is blank, a knife will be given.  To give a taser, it shou
+The default primary (rifle) weapon that the cts will spawn with
+The default secondary (pistol) weapon that the cts will spawn with
+Determines whether non-headshot hits do any damage.
+Scales the damage a ct player takes by this much when they take damage in the body. (1 == 100%, 0.5 == 50%)
+Scales the damage a ct player takes by this much when they take damage in the head (1 == 100%, 0.5 == 50%).  Remember! Headshot
+Scales the damage a t player takes by this much when they take damage in the body. (1 == 100%, 0.5 == 50%)
+Scales the damage a t player takes by this much when they take damage in the head (1 == 100%, 0.5 == 50%).  Remember! Headshots
+If set to non-0, will determine the fraction of damage dealt that will be given to attacker.
+Drop breachcharge on player death
+Whether c4 is droppable
+Drop defuser on player death
+Which grenade to drop on player death: 0=none, 1=best, 2=current or best, 3=all grenades
+Which gun to drop on player death: 0=none, 1=best, 2=current or best
+Drop healthshot on player death
+Drop taser on player death
+Determines whether a player can early-out of the deathcam.
+Prints time outs to the console for debugging
+If the map doesn't define an objective (bomb, hostage, etc), the value of this convar will declare the winner when the time run
+How to allocate defusers to cts at start or round: 0=none, 1=random, 2=everyone
+Prevents a userid from being auto-kicked
+When a bot disconnects, kill them first.  Requires mp_disconnect_kills_players.
+When a player disconnects, kill them first (triggering item drops, stats, etc.)
+Whether to display and score player assists
+Maximum time the bonus time will last (in seconds)
+Minimum time the bonus time will last (in seconds)
+Percent of points additionally awarded when someone gets a kill with the bonus weapon during the bonus period.
+When attempting to get the bonus weapon in deathmatch, whether we should respawn you with it or just give it to you directly
+Additional dogtags to drop when making a kill with the bonus weapon
+Points to award for picking up a dogtag in deathmatch.
+Number of base points to award for a kill in deathmatch.  Cheaper weapons award 1 or 2 additional points.
+In deathmatch, enables team dm visuals & scoring
+Team deathmatch victory points to award for kill with bonus weapon
+Team deathmatch victory points to award for collecting enemy dogtags
+Team deathmatch victory points to award for enemy kill
+Maximum time a bonus time will start after the round start or after the last bonus (in seconds)
+Minimum time a bonus time will start after the round start or after the last bonus (in seconds)
+Whether or not to do a warmup period at the start of a match in an offline (bot) match.
+Whether or not to do a warmup period at the start of a match.
+Whether dogtags should despawn when their killer dies
+How many seconds dogtags should stay around before despawning automatically (0 = infinite)
+Who is eligible to pick up a dogtag (0 = killer only, 1 = killer's team, 2 = victim's team, 3 = killer & victim's team, 4 = any
+Allows players to drop grenades.
+Allows players to drop knives.
+Prints round timers to the console for debugging
+Reset all player money every n rounds (0 for never)
+If mp_endmatch_votenextmap is set, players have this much time to vote on the next map at match end.
+Whether or not players vote for the next map at the end of the match when the final scoreboard comes up
+If set, keeps the current map in the list of voting options.  If not set, the current map will not appear in the list of voting
+Modes available for endmatch voting during war games. Separate names with spaces.
+Maximum number of maps to include in endmatch voting during war games
+Maximum number of other war games to include in endmatch voting during war games
+Number of players required to be connected to end warmup early. 0 to require maximum players for mode.
+Reset all player equipment every n rounds (0 for never)
+Makes the server always play footstep sounds. Clients never calculate footstep sounds locally, instead relying on the server.
+Players don't get to choose what team they are on, it is auto assinged.
+The amount of time a player has on the team screen to make a selection before being auto-teamed
+Restricts spectator modes for dead players. 0 = any team. 1 = only own team. 2 = no one
+Force all players to respawn.
+Forces team to win
+Determines whether kevlar (1+) and/or helmet (2+) are given automatically.
+How many seconds to keep players frozen when the round starts
+Allows team members to injure other members of their team
+If mp_ggprogressive_use_random_weapons is set, this is the number of kills needed with each weapon
+Number of seconds to delay before restarting a round after a win in gungame progessive
+If set, selects random weapons from set categories for the progression order
+Award this many upgrade points every round in demolition mode
+Number of bonus upgrades to award the cts when they defuse a gun game bomb
+Number of bonus upgrades to award the ts when they detonate a gun game bomb
+Kill points required in a round to get a bonus flash grenade
+Kill points required in a round to get a bonus he grenade
+Kill points required in a round to get a bonus molotov cocktail
+Kill points required to upgrade a player's weapon
+Number of seconds to delay before making the bomb available to a respawner in gun game
+Number of bonus points awarded in demolition mode when knife kill ends round
+Number of seconds to delay during tr mode halftime
+End the half and give a team round point when a player makes a kill using the final weapon
+Upgrade the player's weapon after this number of rounds without upgrading
+Whether this map should spawn a c4 bomb for a player or not.
+If above 0, deal non-lethal damage to players over time.
+Mp_guardian_add_bounds_pt
+Mp_guardian_add_player_spawn_pt
+Adjust the guardian bots' difficulty every nth guardian wave when using behavior trees.
+Starting this round a difficulty cap will be applied to the bots.
+Starting difficulty level for the gardian bots.
+How many bots to increase difficulty per wave - this many easier bots will get harder.
+The amount of money bots get time each wave the players complete.  This # is absolute and not additive, the money is set to (th
+Mp_guardian_clear_all_bounds
+Mp_guardian_clear_all_player_spawns
+Mp_guardian_emit_bounds_config
+Force bots to collect hostages after this amount of time if no enemy has been seen.
+If set guardian bots will be given grenades at the beginning of the wave.
+Loc string token for instructions for this mission, otherwise default to kills with weapon.
+Loc string token to use on hud for this mission, otherwise default to kills with weapon.
+Override to weapon dialog var applied to ui
+Mp_guardian_new_bounds
+The maximum distance a player is allowed to get from the bombsite before they're killed.
+The distance at which we start to warn a player when they are too far from the guarded bombsite.
+Mp_guardian_shoot_point
+The number of kills needed with a specific weapon.
+The weapon that needs to be used to increment the kills needed to complete the mission.
+If set to the index of a bombsite, will cause random spawns to be only created near that site.
+Determines whether the match switches sides in a halftime event.
+Number of seconds that halftime lasts
+Set to 1 to pause match after halftime countdown elapses. Match must be resumed by vote or admin.
+Set to 1 to stay in halftime indefinitely. Set to 0 to resume the timer.
+How much extra aim punch will happen when a player wearing the assault suit gets when shot
+Determines cooldown of purchase.
+How fast a player wearing the heavy assault suit will draw their weapon (1.0 = normal speed, 0.5 = half speed)
+The max speed of a player when they are wearing the heavy assault suit
+How much damage should scale when the player wearing the heavy assault suit is shot (1.0 = no change, 0.5 = half damage)
+Maximum number of hostages to spawn.
+Additional time added to round time if a hostage is reached by a ct.
+Default is 1.0, slow down hostages by setting this to < 1.0.
+When enabled will consistently force the farthest hostages to spawn.
+Comma separated list of zero based indices to force spawn positions, e.g. '0,2' or '1,6'
+0 = spawn hostages randomly every round, 1 = same spawns for entire match.
+Whether or not hostages can be hurt.
+Restricts human players to a single team {any, ct, t}
+Ignore conditions which would end the current round
+Set this convar to a comma-delimited list of definition indices of weapons that should be prohibited from use.
+Number of seconds after round start to allow a player to join a game
+Max # of players 1 team can have over another (0 disables check)
+Logs attacks.  Values are: 0=off, 1=enemy, 2=teammate, 3=both)
+Logs a line any time a player acquires or loses an item.
+Enables distance logging every so many units
+Enables distance logging every so many seconds
+Enables distance logging with full loadouts
+Enables money logging.  Values are: 0=off, 1=on
+Can a team clinch and end the match by being so far ahead that the other team has no way to catching up?
+At the end of the match, perform a changelevel even if next map is the same
+At the end of the match, perform a restart instead of loading a new map
+Time (in seconds) until a match restarts.
+Determines the highest level of armor allowed to be purchased. (0) none, (1) kevlar, (2) helmet
+Maximum amount of money allowed in a player's account
+Max number of rounds to play before server changes maps
+Number of seconds to delay before the molotov can be used after acquiring it
+This command, if set to 1 (default on all game modes with the exception of Danger Zone), will make it so that only counter-terrorist players can rescue hostages. Set to 0 to allow all players to rescue hostages. 
+If a match ends in a tie, use overtime rules to determine winner
+If set to 1 will set mp_halftime_pausetimer to 1 before every half of overtime. Set mp_halftime_pausetimer to 0 to resume the t
+When overtime is enabled play additional rounds to determine winner
+Money assigned to all players at start of every overtime half
+Pause the match in the next freeze time
+This command, if set to 1, allows players to plant C4s at any location. If set to 0, the C4 can only be planted at bomb sites. 
+Players can earn money by performing in-game actions
+Controls what information player see in the status bar: 0 all names
+Number of seconds to delay showing information in the status bar
+Number of seconds to keep showing old information in the status bar
+Determines who should see all. 0 = default. 1 = both teams. 2 = terrorists. 3 = counter-terrorists.
+Determines whether players are to spawn. 0 = default
+If using mp_randomspawn, determines whether to test distance when selecting this spot.
+If using mp_randomspawn, determines whether to test line of sight when spawning.
+Whether guns must be +used to acquire or default is touch-to-pickup
+How many seconds after respawn immunity lasts. Set to negative value to disable warmup immunity.
+When set to 1, counter-terrorists will respawn after dying.
+When set to 1, terrorists will respawn after dying.
+Time between respawn waves for cts.
+Time between respawn waves for terrorists.
+If non-zero, game will restart in the specified number of seconds
+Number of ct's when playing retakes.
+Ct bonus card for full buy round when playing bomb site retake.
+Ct bonus card availability pattern for full buy round when playing bomb site retake.
+Ct loadouts for default pistol round when playing bomb site retake.
+Ct enemy card for full buy round when playing bomb site retake.
+Ct loadouts for full buy round when playing bomb site retake.
+Ct loadouts for force buy round when playing bomb site retake.
+Ct loadouts for upgraded pistol round when playing bomb site retake.
+Limit the number of consecutive rounds targeting the same site.
+Number of terrorists when playing retakes.
+T bonus card for full buy round when playing bomb site retake.
+T bonus card availability pattern for full buy round when playing bomb site retake.
+T loadouts for default pistol round when playing bomb site retake.
+T enemy card for full buy round when playing bomb site retake.
+T loadouts for full buy round when playing bomb site retake.
+T loadouts for force buy round when playing bomb site retake.
+T loadouts for upgraded pistol round when playing bomb site retake.
+Number of seconds to delay before restarting a round after a win
+How many minutes each round takes.
+How many minutes each round of bomb defuse takes. If 0 then use mp_roundtime instead.
+How many minutes deployment for coop mission takes.
+How many minutes each round of hostage rescue takes. If 0 then use mp_roundtime instead.
+Scramble the teams and restart the game
+The max speed of a player when they have a shield deployed
+The max speed of a player when they have a shield holstered
+Determines whether kicked players are included in the assessment for short-handedness
+Number of previous rounds that a team needs to have been shorthanded before they are eligible for the short-handed loser bonus
+How solid are teammates: 0 = transparent
+Kick players who team-kill within this many seconds of a round restart.
+Toggle set the player names and team names to the opposite side in which they are are on the spectator panel.
+How many spectators are allowed in a match.
+Determines what the initial loss streak is.
+Amount of money each player gets when they reset
+Punish players for suicides
+Specifies number of seconds required to wait before another suicide.
+Swap the teams and restart the game
+Switch teams and restart the game
+The default grenades that the ts will spawn with.  To give multiple grenades, separate each weapon class with a space like this
+The default melee weapon that the ts will spawn with
+The default primary (rifle) weapon that the ts will spawn with
+The default secondary (pistol) weapon that the ts will spawn with
+Scalar for player tagging modifier when hit. Lower values for greater tagging.
+Determines recharge time for taser. -1 = disabled.
+The damage threshhold players have to exceed in a match to get kicked.
+The damage threshhold players have to exceed in a match to get warned that they are about to be kicked.
+The damage threshold players have to exceed at the start of the round to be warned/kick.
+Grant healthshots in team deathmatch after n kills
+Number of timeouts each team gets per match.
+Duration of each timeout.
+Teams can earn money by performing in-game actions
+Enter a country's alpha 2 code to show that flag next to team 1's name in the spectator scoreboard.
+Enter a country's alpha 2 code to show that flag next to team 2's name in the spectator scoreboard.
+Enter a team's shorthand image name to display their logo. Images can be found here: 'resource/flash/econ/tournaments/teams'
+Enter a team's shorthand image name to display their logo. Images can be found here: 'resource/flash/econ/tournaments/teams'
+A non-empty string sets first team's match stat.
+A non-empty string sets second team's match stat.
+Cycle match stats after so many seconds
+Decide on a match stat and hold it additionally for at least so many seconds
+A non-empty string sets the match stat description, e.g. 'match 2 of 3'.
+When set, your teammates act as enemies and all players are valid targets.
+A non-empty string overrides the first team's name.
+A non-empty string overrides the second team's name.
+A value between 1 and 99 will show predictions in favor of ct team.
+A value between 1 and 99 will set predictions in favor of first team.
+A non-empty string for best-of-n maps won by the first team.
+A non-empty string for best-of-n maps won by the second team.
+How many maps to win the series (bo3 max=2
+How many seconds is a full technical timeout?
+How many technical timeouts are there per team?
+Game time per map in minutes
+Will tk'ers and team damagers be punished in the next round?  {0=no,  1=yes}
+Restart tournament mode on the current level.
+Resume the match
+When set to 1, and that player's team is set to respawn, they will respawn in waves. If set to 2, teams will respawn when the w
+This command enables debugging messages for map changes.  
+End warmup immediately.
+Set to 1 to stay in warmup indefinitely. Set to 0 to resume the timer.
+Start warmup.
+How long the warmup period lasts. Changing this value resets warmup.
+Warmup time to use when all players have connected. 0 to disable.
+
+
+
+If set to non-0, will hurt the attacker by the specified fraction of max damage if they miss.
+Determines which team, if any, can purchase heavy guns. -1 = any; 0 = non; 2 = ts; 3 = cts.
+Determines whether heavyassaultsuit is permitted.
+If this convar is set, when a match starts, the game will not delete weapons placed in the map.
+Determines which team, if any, can purchase pistols. -1 = any; 0 = non; 2 = ts; 3 = cts.
+Determines which team, if any, can purchase rifles. -1 = any; 0 = non; 2 = ts; 3 = cts.
+Determines which team, if any, can purchase smgs. -1 = any; 0 = non; 2 = ts; 3 = cts.
+Determines how many purchases of each weapon type allowed per player per round (0 to disallow purchasing, -1 to have no limit).
+Determines how many zeus purchases a player can make per round (0 to disallow, -1 to have no limit).
+If this convar is set, weapons on the ground will have a glow around them.
+Max number of times a player may purchase any weapon per match
+The amount of time to show the win panel between matches / halfs
+Prints a dump the current players property data
+Multiply specified convar value.
+
+Current user name
+Add current area to the selected set.
+Add specified area id to the selected set.
+Re-analyze the current navigation mesh and save it to disk.
+Rgba color to draw as the background color for nav areas while editing.
+Max area size created in nav generation
+Toggles the 'avoid this area when possible' flag used by the ai system.
+Defines a corner of a new area or ladder. To complete the area or ladder, drag the opposite corner to the desired location and 
+Start continuously removing from the selected set.
+Start dragging a selection area.
+Start dragging a selection area.
+Start continuously adding to the selected set.
+Begin shifting the selected set.
+Attempts to build a nav ladder on the climbable surface under the cursor.
+Checks to be sure every (or just the marked) nav area can get to every goal area for the map (hostages or bomb site).
+Scans the maps directory and reports any missing/out-of-date navigation files.
+Updates the blocked/unblocked status for every nav area.
+Update the nav mesh stairs attribute
+Chops all selected areas into their component 1x1 areas
+Remove given nav attribute from all areas in the selected set.
+Clear the selected set.
+Erase any previously placed walkable positions.
+Re-orders area and ladder id's so they are continuous.
+To connect two areas, mark the first area, highlight the second area, then invoke the connect command. Note that this creates a
+
+
+Radius used to raise/lower corners in nearby areas when raising/lowering corners.
+Lower the selected corner of the currently marked area.
+Places the selected corner of the currently marked area on the ground.
+Raise the selected corner of the currently marked area.
+Select a corner of the currently marked area. Use multiple times to access all four corners.
+Anchor nav_begin_area z to editing player's feet
+If true, nav areas will be placed flush with the ground when created by hand.
+Toggles the 'must crouch in this area' flag used by the ai system.
+
+Deletes the currently highlighted area.
+Deletes the currently marked area (if any).
+To disconnect two areas, mark an area, highlight a second area, then invoke the disconnect command. This will remove all connec
+Checks for nodes embedded in displacements (useful for in-development maps)
+Toggles the 'area is not suitable for hiding spots' flag used by the ai system.
+The maximum number of areas to draw in edit mode
+Set to one to interactively edit the navigation mesh. Set to zero to leave edit mode.
+Defines the second corner of a new area or ladder and creates it.
+Stop continuously removing from the selected set.
+Stop dragging a selection area.
+Stop dragging a selection area.
+Stop continuously adding to the selected set.
+Finish shifting the selected set.
+Selects the current area and all areas connected to it, recursively. To clear a selection, use this command again.
+Mark cliff areas, post-processing approximation
+Generate a navigation mesh for the current map and save it to disk.
+Autogenerate nav areas on fence and obstacle tops
+Convert obsolete jump areas into 2-way connections
+Generate a navigation mesh for the current map and save it to disk.
+
+Z tolerance for adding new nav areas.
+Toggles the 'traverse this area by jumping' flag used by the ai system.
+Flips the selected ladder's direction.
+Loads the navigation mesh for the current map.
+Lower the top of the drag select volume.
+Lower the bottom of the drag select volume.
+Chops the marked area into disconnected sub-areas suitable for sniper spots.
+Marks the area or ladder under the cursor for manipulation by subsequent editing commands.
+Set nav attribute for all areas in the selected set.
+Mark an area with no place name. Useful for finding stray areas missed when place painting.
+Mark the current location as a walkable position. These positions are used as seed locations when sampling the map to generate 
+Maximum range for precomputed nav mesh visibility (0 = default 1500 units)
+
+To merge two areas into one, mark the first area, highlight the second by pointing your cursor at it, and invoke the merge comm
+Merges a saved selected set into the current mesh.
+Toggles the 'hostages cannot use this area' flag used by the ai system.
+Toggles the 'dont jump in this area' flag used by the ai system.
+Sets the place of the area under the cursor to the curent place, and 'flood-fills' the place to all adjacent areas. Flood-filli
+Lists all place names used in the map.
+Sets the current place to the place of the area under the cursor.
+Replaces all instances of the first place with the second place.
+Sets the place of all selected areas to the current place.
+
+Toggles the 'dont avoid obstacles' flag used by the ai system.
+Set to one to skip the time consuming phases of the analysis.  Useful for data collection and testing.
+Raise the top of the drag select volume.
+Raise the bottom of the drag select volume.
+Re-selects the stored selected set.
+Remove current area from the selected set.
+Removes legacy jump areas, replacing them with connections.
+Toggles the 'traverse this area by running' flag used by the ai system.
+Saves the current navigation mesh to disk.
+Writes the selected set to disk for merging into another mesh via nav_merge_mesh.
+Adds all blocked areas to the selected set
+Adds all damaging areas to the selected set
+Selects any areas that intersect the given half-space.
+Adds all invalid areas to the selected set.
+Adds all obstructed areas to the selected set
+Selects nav areas that are overlapping others.
+Adds all areas in a radius to the selection set
+Adds all stairway areas to the selected set
+Color used to draw the selected set borders while editing.
+Color used to draw the selected set background while editing.
+Sets the editor into or out of place mode. Place mode allows labelling of area with place names.
+Shifts the selected areas by the specified amount
+Show approach points in the navigation mesh.
+Duration in seconds to show nav area id and attributes while editing
+
+Highlight non-contiguous connections
+Show current 'danger' levels.
+
+
+
+
+Show current player counts in each area.
+Show areas that are potentially visible from the current nav area
+Chops all selected areas into their component 1x1 areas and re-merges them together into larger areas
+The ground unit normal's z component must be greater than this for nav areas to be generated.
+The ground unit normal's z component must be this close to the nav area's z component to be generated.
+Snap to the nav generation grid when creating new nav areas
+Make props solid to nav generation/editing
+To splice, mark an area, highlight a second area, then invoke the splice command to create a new, connected area between them.
+To split an area into two, align the split line using your cursor and invoke the split command.
+If true, nav areas will be placed flush with the ground when split.
+Toggles the 'stand while hiding' flag used by the ai system.
+Toggles the 'must stop when entering this area' flag used by the ai system.
+Stores the current selected set for later retrieval.
+Strips all hiding spots, approach points, and encounter spots from the current area.
+Subdivides all selected areas.
+
+
+
+Test the selected set for being on stairs
+Start or stop continuously removing from the selected set.
+Remove current area from the selected set.
+Toggle the editor into and out of place mode. Place mode allows labelling of area with place names.
+Toggles place painting mode. When place painting, pointing at an area will 'paint' it with the current place.
+Toggles all areas into/out of the selected set.
+Start or stop continuously adding to the selected set.
+Toggles the 'area is transient and may become blocked' flag used by the ai system.
+Clears the marked area or ladder.
+Updates the blocked/unblocked status for every nav area.
+Recomputes lighting values
+If nonzero editing the mesh will incrementally recompue visibility
+If used without arguments, all available places will be listed. If a place argument is given, the current place is set.
+Toggles the 'traverse this area by walking' flag used by the ai system.
+Warps the player to the marked area.
+Centers the nav mesh in the world
+This command sets whether or not multicast is enabled.  
+Discards incoming message: <0|1|name>
+Netchannel processing is limited to so many milliseconds, abort connection if exceeding budget
+Netchannel statistics will dump in the logs upon request
+Netchannel statistics will dump so many top messages in each category
+Netchannel statistics lru accumulation buffer size
+Shows net channel info
+0: use connect method requested by gc.  >0: always use sdr if possible.  <0: always use direct udp if possible
+Print detailed network statistics for each network connection
+If enabled, channel will drop client when sending too much data causes buffer overrun
+Drops next n packets on client
+Dumps out a report of game event network usage
+
+Jitter fakelag packet time
+Lag all incoming network data (including loopback) by this many milliseconds.
+Simulate packet loss as a percentage (negative means drop 1/n packets)
+Draw the network usage data, = 2 prints in/out data, = 3 draws data on payload,
+Height of netgraph panel
+Hold worst case in server framerate line.
+Show ipcs on netgraph panel
+The latency graph represents this many milliseconds.
+This command sets the position of the screen the netgraph display is placed at. Default is position 1 (right corner). Left corner is 0. Middle is 2. 
+Determines whether netgraph font is proportional or not
+Draw the interpolation graph.
+Draw the ping/packet loss graph.
+Draw the server framerate graph.
+This command sets whether or not the net graph display is solid. 
+Draw text fields
+Requested max packet size before packets are 'split'.
+For servers behind nat/dhcp meant to be exposed to the public internet, this is the public facing ip address string: ('x.x.x.x'
+
+This command, if set to 1 (default 0), will enable the printing of information about reliable sounds to the console. 
+Show info about packet splits
+Dump udp packets summary to console
+Dump oob udp packets summary to console
+Dump non-loopback udp only
+Number of fragments for a splitpacket that can be sent per frame
+Inits multiplayer network sockets
+Shows current network status
+Allow steam connections to attempt to use relay servers as fallback (best if specified on command line:  +net_steamcnx_allowrel
+Use steam connections on listen server as a fallback, 2 forces use of steam connections instead of raw udp.
+Print status of steam connection sockets.
+Max number of packets per burst beyond which threaded socket pump algorithm will start dropping packets.
+Number of packets per second that threaded socket pump algorithm allows from client.
+Number of seconds over which the threaded socket pump algorithm will fully recover client ratelimit.
+Network warning throttling to specified hz rate
+Set to 1 to advance to next frame ( when singlestep == 1 )
+Play next demo in sequence.
+If set to a valid map name, will trigger a changelevel to the specified map at the end of the round
+When enabled prints next map to clients
+Sets the game mode to be played when the next level loads
+Toggle. Player becomes non-solid and flies.  Optional argument of 0 or 1 to force enable/disable
+
+Toggle. Player becomes hidden to npcs.
+This command toggles whether or not bots are aware of your player. When this is enabled, bots will not attack you (or even react to you). 
+Subtracts half of the target's ammo
+Displays the local movement attempts by the given npc(s) (triangulation detours).  Failed bypass routes are displayed in red, s
+Displays text debugging information about the squad and enemy of the selected npc  (see overlay text) arguments:   {npc_name}
+Displays all the current ai conditions that an npc has in the overlay text. arguments:   {npc_name} / {npc class_name} / no a
+Creates an npc of the given type where the player is looking (if the given npc can actually stand at that location).   argumen
+Creates an npc aimed away from the player of the given type where the player is looking (if the given npc can actually stand at
+Removes the given npc(s) from the universe Arguments:   {npc_name} / {npc_class_name} / no argument picks what player is looki
+Removes all npcs from the universe that aren't currently selected
+Shows memory of npc.  Draws an x on top of each memory. eluded entities drawn in blue (don't know where it went) unreachable 
+Displays red line to npc's enemy (if has one) and blue line to npc's target entity (if has one) arguments:   {npc_name} / {np
+Selected npc(s) will freeze in place (or unfreeze). If there are no selected npcs, uses the npc under the crosshair. arguments
+Freeze all npcs not selected
+Selected npc(s) will go to the location that the player is looking (shown with a purple box) arguments:-none-
+Sends all selected npc(s) to a random node. arguments:   -none-
+Heals the target back to full health
+Enable test mode for ik height adjustment
+Kills the given npc(s) Arguments:   {npc_name} / {npc_class_name} / no argument picks what player is looking at
+Draw's a while box around the npc(s) nearest node arguments:   {entity_name} / {class_name} / no argument picks what player i
+Displays the relationships between this npc and all others. arguments:   {entity_name} / {class_name} / no argument picks wha
+Reloads schedules for all npc's from their script files arguments:-none-
+Displays the current route of the given npc as a line on the screen.  Waypoints along the route are drawn as small cyan rectang
+Select or deselects the given npc(s) for later manipulation.  Selected npc's are shown surrounded by a red translucent box arg
+Selected npc(s) will freeze in place (or unfreeze). If there are no selected npcs, uses the npc under the crosshair. arguments
+Freeze all npcs not selected
+Obsolete.  Replaced by npc_combat
+Displays the steering obstructions of the npc (used to perform local avoidance) arguments:   {entity_name} / {class_name} / n
+Displays the steering obstructions of all npcs (used to perform local avoidance) 
+Outputs text debugging information to the console about the all the tasks + break conditions of the selected npc current schedu
+Displays detailed text debugging information about the all the tasks of the selected npc current schedule (see overlay text) a
+Selected npc will teleport to the location that the player is looking (shown with a purple box) arguments:-none-
+Trigger npc to think
+Displays the viewcone of the npc (where they are currently looking and what the extents of there vision is) arguments:   {ent
+
+
+Occlusion statistics
+Enable asynchronous occlusion test in another thread
+
+
+Amount by which the camera (viewer's eye) is expanded for occlusion test. This should be large enough to accommodate eye's move
+Amount by which the player bounding box is expanded up for occlusion test to account for jumping. This margin should be large e
+Amount by which the player bounding box is expanded for occlusion test. This margin should be large enough to accommodate playe
+Max length of completely occluded shadow to consider a player for occlusion test. If shadow provably stops at this distance, th
+Max distance at which to consider shadows for occlusion computations
+
+
+Change bias value for computing circle buffer
+Max noise value of circle alpha
+
+Test vgui panel positioning with title safe indentation
+
+
+
+Equips parachute
+Used for stress-testing particle systems. Randomly denies creation of particles.
+Attachment index for attachment mode
+Possible values: 'start_at_attachment', 'follow_attachment', 'start_at_origin', 'follow_origin'
+Name of the particle system to dynamically spawn
+Dispatches the test particle system with the parameters specified in particle_test_file,  Particle_test_attach_mode and particl
+Stops all particle systems on the selected entities. arguments:   {entity_name} / {class_name} / no argument picks what playe
+Current server access password
+Show the engine filesystem path.
+Toggle the server pause state.
+Show/hide the level performance tools ui.
+
+
+
+
+Times the cost of each active object
+Highlights constraint system graph for an entity
+Dumps debug info for an entity
+Turns on the absbox for all active physics objects
+Lists all active physics objects
+Dumps debug info for an entity
+Entering this command into your console will print out one of the hints that are shown in various CS:GO loading screens, such as advising players to stab enemies in the back if they find themselves behind them. 
+Toggles 'picker' mode.  When picker is on, the bounding box, pivot and debugging text is displayed for whatever entity the play
+Display ping to server.
+Dump debug info
+Play a sound.
+Set to 1:'2 foot' or 2:'10 foot' presets.
+Play a sound with hrtf spatialization.
+Play a broadcast
+Play a recorded demo file (.dem ).
+This command sets the difficulty of bots when they are the last man standing. 
+
+
+When true, print amount and type of all damage received by player to console.
+This console command is used to toggle between whether you want to show the custom message whenever you join a community server that has one. 
+Creates a ping notification where the player is looking.
+Cooldown for how long it takes for a player's ping token to refresh allowing them to ping again (they get 5 tokens).
+
+
+
+
+Play a sound, reloading from disk in case of changes.
+Play a sound from the game sounds txt file
+Forces a soundscape to play
+Plays a video: <filename> [width height]
+Plays a video fullscreen without ability to skip (unless dev 1) and fades in: <filename> <time>
+Plays a video and fires and exit command when it is stopped or finishes: <filename> <exit command>
+Plays a video (without interruption) and fires and exit command when it is stopped or finishes: <filename> <exit command>
+Plays a video without ability to skip: <filename> [width height]
+Play a sound at a specified volume.
+Plugin_load <filename> : loads a plugin
+Plugin_pause <index> : pauses a loaded plugin
+Pauses all loaded plugins
+Prints details about loaded plugins
+Plugin_unload <index> : unloads a plugin
+Plugin_unpause <index> : unpauses a disabled plugin
+Unpauses all disabled plugins
+This determines how long the third person player character will crouch for after landing a jump.  This only affects the third p
+Press the specified xbox 360 controller button (lt, rt, st[art], ba[ck], lb, rb, a, b, x, y, l[eft], r[right], u[p], d[own])
+Display the color correction layer information.
+Prints the current mapgroup and the contained maps
+Prints the current mapgroup and the contained maps
+
+Shows name for prop looking at
+Toggle prop debug mode. If on, props will show colorcoded bounding boxes. Red means ignore all damage. White means respond phys
+Creates a dynamic prop with a specific .mdl aimed away from where the player is looking. arguments: {.mdl name}
+Creates a physics prop with a specific .mdl aimed away from where the player is looking. arguments: {.mdl name}
+Min distance to player at which pvs is used. At closer distances, pvs assumes we can see a shadow or something else from the pl
+Entity to watch for prediction system changes.
+Entity variable to watch in prediction system for changes.
+
+
+Exit the engine.
+Exit the engine.
+
+
+
+Account for fov when computing an entity's distance-based alpha fade
+Fraction of direct lighting used to boost lighting when model requests
+Set this to 1 to light models with only ambient lighting (and no static lighting).
+
+
+
+
+
+Usage r_cleardecals <permanent>.
+
+
+
+
+Set to 1 to randomize static lighting for debugging.  Must restart for change to take affect.
+Replaces opaque objects with their grayscaled depth values. r_showz_power scales the output.
+Completely disable distance fading on large props
+Distance prop fade disable threshold size
+If non-zero when a map loads, static props won't be loaded
+
+
+
+
+Draw all renderables, even ones inside solid leaves.
+0=off, 1=normal, 2=wireframe
+Render brush models. 0=off, 1=normal, 2=wireframe
+Draw clip brushes (red=npc+player, pink=player, purple=npc)
+Render decals.
+Toggles rendering of displacment maps
+
+Render func_detail
+Draw the specified leaf.
+0: off 1: draw light cache entries 2: draw rays 
+
+
+
+
+
+
+
+Time in milliseconds beyond which a model overlay is fully red in r_drawmodelstatsoverlay 2
+Time in milliseconds that a model must take to render before showing an overlay in r_drawmodelstatsoverlay 2
+
+
+
+
+
+
+0=off, 1=normal, 2=wireframe
+Enable/disable particle rendering
+
+
+Enable/disable rain rendering.
+(0 - off) (1 - draws the bounding box of entities) (2 - draws the axis aligned bounding box used for culling) (3 - draws both b
+
+
+
+
+
+
+0=off, 1=normal, 2=wireframe
+
+Toggle visibility of first person weapon tracers
+
+
+
+
+
+Enable the rendering of vgui panels
+
+Render the world.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Override the far clipping plane. -1 means to use the value in env_fog_controller.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Flush and reload lods.
+
+
+
+
+
+
+
+
+
+
+
+Number of random directions to fire rays when computing ambient lighting
+Allow lights to influence lightcaches beyond the lights' radii
+
+
+Controls the speed of light interpolation, 0 turns off interpolation
+
+
+
+Lock the pvs so you can fly around and inspect what is being drawn.
+Set the max dimension for the map.  This determines the far clipping plane
+Minimum value for the ambient lighting on dynamic models with more than one bone (like players and their guns).
+
+
+
+Turn off the pvs.
+Activate/deactivates spew about what the occlusion system is doing.
+Set this to revert to hl2's method of selecting lights
+
+Displays a particular level of the spatial partition system. Use -1 to disable it.
+
+Open all portals
+Clip entities against portal frustums.
+
+0 - off, 1 - static prop color meshes are allocated from a single shared vertex buffer (on hardware that supports stream offset
+0: no radiosity 1: radiosity with ambient cube (6 samples) 2: radiosity with 162 samples 3: 162 samples for static props, 6 sam
+
+
+Enable/disable isinair() check for rain drops?
+Shows rain tracelines for this many seconds (0 disables)
+
+
+
+Enable/disable rain profiling.
+
+How much sideways velocity rain gets.
+Enable/disable rain simulation.
+
+
+
+
+
+
+Set each light's color: [light0-3] [r0-255] [g0-255] [b0-255]
+Draw specified material as an overlay
+
+Toggle deferred shadow rendering
+Set shadow angles
+Some shadow stuff
+Set shadow color
+Set shadow direction
+Set shadow distance
+
+
+
+
+
+
+
+
+Enable the rendering of sky boxes
+
+Snow debug boxes.
+Snow enable
+Snow.
+Snow.
+Snow fall speed scale.
+Snow.
+Snow.
+Snow.
+Snow.
+Snow.
+Snow.
+Snow.
+Snow.
+Snow.
+Snow.
+Snow.
+Snow.
+Snow.
+
+
+
+
+
+
+Activate/deactivate wireframe rendering of what the occlusion system is doing.
+
+
+
+At this distance and beyond you need to be point right at someone to see them
+How closely you have to point at someone to see them beyond max distance
+0 for traditional method, 1 for more realistic method
+The degree to which you can point away from a target, and still see them on radar.
+
+
+
+
+
+
+Opens a radio menu
+Opens the radio menu 1
+Opens the radio menu 2
+Opens the radio menu 3
+Rangefinder
+Max bytes/sec the host can receive data
+Issue an rcon command.
+Address of remote server if sending unconnected rcon commands (format x.x.x.x:p) 
+Allow clients to use rcon commands on server.
+Remote console password.
+Attempt to repurchase items with the order listed in cl_rebuy
+Recomputes clock speed (for debugging purposes).
+Record a demo.
+Reload the most recent saved game (add setpos to jump to current view position on reload).
+
+
+This command will reload the store (buy menu) configuration, applying any changes you've made to the config files. 
+Reload vjobs module
+Remove all user ids from the ban list.
+Remove a user id from the ban list.
+Remove an ip address from the ban list.
+Render n blank frames
+Start hltv replay of last death
+
+Start gotv replay: replay_start <delay> [<player name or index>]
+Stop hltv replay
+List all clientside simulations and time - will report and turn itself off.
+List all clientside entities thinking and time - will report and turn itself off.
+Lists all entities
+Lists all simulating/thinking entities
+Reports sound patch count
+Lists all touchlinks
+Reset player scores, player controls, team scores, and end the round
+Reset a bunch of game convars to default values
+Respawn all the entities in the map.
+Restart the game on the same level (add setpos to jump to current view position on restart).
+Retry connection to last server.
+
+
+
+'then any' or 'then all' response followups will be dispatched only to characters within this distance.
+Fire a response concept directly at a given character. Usage: rr_forceconcept <target> <concept> 'criteria1:value1,criteria2:va
+Reload all response system scripts.
+Ais will not even consider remarkarbles that are more than this many units away.
+Tlk_remarks will be dispatched no more than this many times for any given info_remarkable
+If 1, polling for info_remarkables and issuances of tlk_remark is enabled.
+When computing respondents for a 'then any' rule, all rule-matching scores within this much of the best score will be considere
+The percentage of the screen width that is considered safe from overscan
+The percentage of the screen height that is considered safe from overscan
+Saves current game.
+
+Display player message
+Display player message to team
+Enable steamcontroller
+How to map the analog joystick deadzone and extents 0 = scaled cross, 1 = concentric mapping to square.
+Steamcontroller pitch factor.
+Steamcontroller yaw factor.
+Scan a recorded demo file (.dem ) for specific game events and dump data.
+Flush all .vcds from the cache and reload from disk.
+Play the given vcd as an instanced scripted scene.
+When playing back, show the directions of faceto events.
+When playing back, show the directions of look events.
+When moving, show the end location.
+Show when a vcd is playing but normal ai is running.
+
+
+Take a screenshot.
+Run the text as a script
+Run the text as a script
+Connect the vscript vm to the script debugger
+Connect the vscript vm to the script debugger
+Dump the state of the vm to the console
+Dump the state of the vm to the console
+Run a vscript file
+Run a vscript file
+Output help for script functions, optionally with a search string
+Output help for script functions, optionally with a search string
+Execute a vscript file, replacing existing functions with the functions in the run script
+Execute all of this entity's vscripts, replacing existing functions with the functions in the run scripts
+Execute an activation script, replacing existing functions with the functions in the run script
+Verbosity level for steamnetsockets spew
+Mouse sensitivity.
+Gives the game time in seconds (server's curtime)
+This command sets your server's config file to the specified config file. 
+Snap player eyes to specified pitch yaw <roll:optional> (must have sv_cheats).
+Snap player eyes and orientation to specified pitch yaw <roll:optional> (must have sv_cheats).
+Adds a new user info value
+Changes's player's model
+Set the pause state of the server.
+Move player to specified origin (must have sv_cheats).
+Move player to an exact specified origin (must have sv_cheats).
+Move specified player to specified origin (must have sv_cheats).
+Shake the screen.
+Stops all active screen shakes. 
+Test a punch-style screen shake. 
+Toggles loadout display
+
+
+Enable the texture budget panel.
+
+
+
+
+Dump all items in +showbudget_texture_global in a text form
+Show the console.
+Shows a info panel: <type> <title> <message> [<command number>]
+Shows a viewport panel <name>
+
+
+Shows trigger brushes
+Toggle show triggers
+
+
+Run engine in single step mode ( set next to 1 to advance a frame )
+
+Game skill level (1-3).
+Skips the next map in the map rotation for the server.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Flush all unlocked async audio data
+Show async memory stats
+Show async memory stats for just non-streamed music
+Show brief async memory stats
+Relative volume of the death camera music.
+Visualize panning crossfade curves
+
+
+
+
+
+
+
+
+Dump sounds to console
+Play full 'far' sound at this distance
+Play full 'near' sound at this distance
+Relative volume of the danger zone victory music.
+
+Foliage db loss per 1200 units
+Specifies the position (in degrees) of the virtual front left/right headphones.
+Specifies the position (in degrees) of the virtual front left/right speakers.
+Specifies the position (in degrees) of the virtual front left/right speakers.
+
+
+
+Get data related to mix group matching string
+Specifies the exponent for the pan xfade from phone to phone if the 'exp' pan law is being used.
+Apply cos(angle) * weight before pan law
+Hrtf calculations will calculate the player as being this far behind the camera. Valid values are between 0 and 300. 
+
+
+
+
+Controls volume of hrtf sounds
+
+
+Minimum amount of time to pause between playing main menu music
+Minimum amount of time to pause between playing main menu music
+Relative volume of map objective music.
+
+
+Relative volume of the main menu music.
+Sets sound to get mixed asynchronously on a different thread
+
+
+
+Tracking rotating music for players with no music packs equipped.
+Music volume multiplier when steam overlay is active
+
+If set, mvp music is muted if players from both teams are still alive.
+Relative volume of the mvp music.
+
+
+
+
+
+
+
+
+Specifies to pause all sounds and not just voice
+
+Play sounds from the game sounds txt file at a given location
+
+Prefetch common sounds from directories specified in scripts/sound_prefetch.txt
+Prints the content of a channel from its guid. snd_print_channel_by_guid <guid>.
+Prints the content of a channel from its index. snd_print_channel_by_index <index>.
+Prints all the active channel.
+Prints the content of a dsp effect.
+Specifies the position  (in degrees) of the virtual rear left/right headphones.
+How much to scale rear speaker contribution to front stereo output
+Specifies the position (in degrees) of the virtual rear left/right speakers.
+Specifies the position (in degrees) of the virtual rear left/right speakers.
+Reference db at snd_refdist
+Reference distance for snd_refdb
+If set to 1, report all sound formats. 
+If set to 1, report all sounds that just looped. 
+If set to 1, report all sounds played with s_startsound(). The sound may not end up being played (if error occurred for example
+If set to 1, report all sounds stopped with s_stopsound(). 
+If set to 1, report more error found when playing sounds. 
+Restart sound system.
+Relative volume of round end music.
+Relative volume of round start music.
+Sets the master volume for a channel. snd_set_master_volume <guid> <mastervolume>.
+Set named mixgroup of current mixer to mix vol, mute, solo.
+Set named mixgroup of named mix layer to mix vol, mute, solo.
+Set named mix layer mix amount.
+Show sounds info
+Limit debug sounds to those containing this substring
+Print to console the sounds that are normally printed on screen only. 1 = print to console and to screen
+
+
+
+Flush and re-parse the sound operator system
+
+Prints a list of currently available operators
+Spew data about the list of block entries.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reload soundmixers.txt file.
+List all mix groups to dev console.
+List all mix layers to dev console.
+List all mixers to dev console.
+Set named mix layer / mix group, trigger amount.
+Specifies the exponent for the pan xfade from speaker to speaker if the 'exp' pan law is being used.
+Apply cos(angle) * weight before pan law
+Specifies the exponent for the pan xfade from speaker to speaker if the 'exp' pan law is being used.
+Apply cos(angle) * weight before pan law
+
+Relative volume of ten second warning music.
+Show sounds location in world
+If running a game, outputs the precache manifest for the current level 
+
+Lists all available audio devices.
+Id of the sound device to use
+Fade client volume.
+Describe the current sound device.
+List all known sounds.
+When on, draws lines to all env_soundscape entities. Green lines show the active soundscape, red lines show soundscapes that ar
+Dumps the client's soundscape data. 
+Time to crossfade sound effects between soundscapes
+Flushes the server & client side soundscapes
+Prints current volume of radius sounds
+Play a constructed sentence.
+If nonzero, allow free-roaming spectator camera.
+Client command to change the whether the spectator is using the cameraman's x-ray state, if they are active, or let the spectat
+If set, will group players into their teams for spectating, if 0, spectating numbers will be the default individual players
+This command may only work in demos/GOTV (and not on servers/matchmaking). This command sets the blue color of the spectator freeze cinematic lighting.  
+This command may only work in demos/GOTV (and not on servers/matchmaking). This command sets the green color of the spectator freeze cinematic lighting.  
+This command may only work in demos/GOTV (and not on servers/matchmaking). This command sets the red color of the spectator freeze cinematic lighting.  
+This command may only work in demos/GOTV (and not on servers/matchmaking). This command sets the scale of the spectator freeze cinematic lighting.  
+The time that the death cam will spend watching the player's ragdoll before going into the freeze death cam.
+Maximum random distance from the target to stop when framing them in observer freeze cam.
+Minimum random distance from the target to stop when framing them in observer freeze cam.
+Time spent with the freeze panel still up after observer freeze cam is done.
+The target fov that the deathcam should use.
+The target fov that the deathcam should use when the cam zoom far away on the target.
+Time spend frozen in observer freeze cam.
+Time players are prevented from skipping the freeze cam
+Time taken to zoom in to frame a target in observer freeze cam.
+Time taken to zoom in to frame a target in observer freeze cam when they are far away.
+Time to decay glow from 1.0 to spec_glow_silent_factor after spec_glow_full_time.
+Noisy players stay at full brightness for this long.
+Lurking player xray glow scaling.
+Noisy player xray glow scaling (pop when noise is made).  Make >1 to add a 'spike' to noise-making players
+Time for noisy player glow 'spike' to show that they made noise very recently.
+Move spectator to specified origin and eyes to specified pitch yaw.
+Shows or hides the spectator bar
+Toggle the visibility of scoreboard players.
+Lerp the spectator camera to specified origin and eyes to specified pitch yaw.
+As an observer, lock the spectate target to the given accountid.
+Activates spectator menu
+Set spectator mode
+Spectate next player
+Spectate player by index
+Spectate player by steam account id
+Spectate player by name
+Dump position and angles to the console
+Spectate previous player ( valid values are 3 to 6 )
+Auto-start killer replay when available
+Enable spectator hltv replay when killed by bot
+Hltv replay delay in seconds
+Debug options for replay cam
+Enable killer replay, requires hltv server running (0:off, 1:default, 2:force)
+Replay time in seconds before the highlighted event
+How long to show the message about killer replay after death. The best setting is a bit shorter than spec_replay_autostart_dela
+When > 0, sets the mode whereas players see delayed replay, and are segregated into a domain of chat and voice separate from th
+Base time scale of killer replay.Experimental.
+Minimum allowable pause between replay requests in seconds
+Round can be delayed by this much due to someone watching a replay; must be at least 3-4 seconds, otherwise the last replay wil
+The trailing time, in seconds, of replay past the event, including fade-out
+If set to 1, you can see player outlines and name ids through walls - who you can see depends on your team and mode
+If set to 1, map voting and spectator view use the raw number keys instead of the weapon binds (slot1, slot2, etc).
+Whether to x-ray dropped defuse kits.
+Whether to always x-ray dropped c4 and defuse kits.
+
+
+Generates a fake spike
+Cause the engine to spincycle (debug!!)
+
+
+Enables split screen support. Play single player now launches into split screen mode. No online support
+Start playing on specified map with max allowed splitscreen players.
+Ss_reloadletterbox
+Two player split screen mode (0 - recommended settings base on the width, 1 - horizontal, 2 - vertical (only allowed in widescr
+Dump memory stats
+Play demos in demo sequence.
+Start recording movie frames.
+Opens initial menu screen and loads the background bsp, but only if no other level is being loaded, and we're not in developer 
+Prints server performance variables
+Display map and connection status.
+
+Spew report of steam controller status
+Finish recording demo.
+Fades out all transition videos playing to the screen: <time>
+Stop playing back a demo.
+Stops all sounds currently sounding.
+Stops all soundscape processing and fades current looping sounds
+Stops all videos playing to the screen
+Fades out all videos playing to the screen: <time>
+
+
+Create dictionary for current strings.
+Parses and stuffs command line + commands to command buffer.
+
+Reports the surface properties at the cursor
+Print out a number of all possible final zone
+Linear acceleration amount (old value is 5.6)
+
+
+
+
+
+
+
+
+
+Players can receive all other players' text chat, team restrictions apply
+Enables old concommand execution behavior allowing remote clients to run any command not explicitly flagged as disallowed.
+Allows the server set players in third person mode without the client slamming it back (if cheats are on, all clients can set t
+Allow voting?
+Allow or disallow the wait command on clients connected to this server.
+Allow clients to download files
+Allow clients to upload customizations files
+Deprecated. Replaced with sv_talk_enemy_dead and sv_talk_enemy_living.
+If set, server only simulates entities on even numbered ticks. 
+Arms race gun level after which vote to restart is disallowed
+Adjust the difficulty of bots each round based on contribution score.
+When enabled will automatically turn on full all talk mode in warmup, at halftime and at the end of the match
+Players automatically re-jump while holding jump button
+Enable automatic ammo purchase when inside buy zones during buy periods
+Execute a mapname cfg file on the server automatically in custom game modes that require it.
+Force start the benchmark. This is only for debugging. It's better to set sv_benchmark to 1 and restart the level.
+Given a bot will buy a grenade, controls the odds of the grenade type. Proportional to all other sv_bot_buy_*_weight convars.
+Given a bot will buy a grenade, controls the odds of the grenade type. Proportional to all other sv_bot_buy_*_weight convars.
+Chance bots will buy a grenade with leftover money (after prim, sec and armor). Input as percent (0-100.0)
+Given a bot will buy a grenade, controls the odds of the grenade type. Proportional to all other sv_bot_buy_*_weight convars.
+Given a bot will buy a grenade, controls the odds of the grenade type. Proportional to all other sv_bot_buy_*_weight convars.
+Given a bot will buy a grenade, controls the odds of the grenade type. Proportional to all other sv_bot_buy_*_weight convars.
+If set, this strips the bots of their weapons every round and forces them to rebuy.
+If > 0, some # of bots will lower thier difficulty each time they win. The argument defines how many will lower their difficult
+If > 0, some # of bots will raise thier difficulty each time cts beat a guardian wave. The argument defines how many will raise
+Bounce multiplier for when physically simulated objects collide with other objects.
+
+
+
+
+
+
+
+
+
+
+
+Override for buy status map info. 0 = everyone can buy, 1 = ct only, 2 = t only 3 = nobody
+
+Allow cheats on server
+Whether the server will attempt to clamp velocities that could cause physics bugs or crashes.
+Clear memory of server side hints displayed to the player.
+Cl_cmdrate is moved to within sv_client_cmdrate_difference units of cl_updaterate before it is clamped between sv_mincmdrate an
+The server tries to keep each player's m_ntickbase withing this many msecs of the server absolute tickcount
+Enable server-side close captioning: 0 = disabled
+When set, ignores coach communication restrictions.
+Allows spectating and communicating with a team ( 'coach t' or 'coach ct' )
+Enable to force certain client convars to minimum/maximum values to help prevent competitive advantages.
+Enable to force the server to show 5v5 scoreboards and allows spectators to see characters through walls.
+Whether the server enforces file consistency for critical files
+Contact email for server sysop
+Sv_cs_dump_econ_item_stringtable
+This cheat command sets the movement speed of players when they're carrying hostages, such as in hostage mode or in Danger Zone. 
+Force cts to spawn on a bombsite
+Turn this off to disable the player's damage feed in the console after getting killed.
+Set this to 0 to allow direct connects to a game in progress even if no presents are present
+Dead players can speak (voice, text) to the living
+
+Make sure entities correctly report whether or not their network data has changed.
+If set, clients won't slam the player model render settings each frame for immunity [mod authors use this]
+Disallow interpolating between observer targets on this server.
+
+0: regular radar
+Location from which clients can download missing files
+This console command sets the initial damage per second you take as you drown. sv_drowning_damage_max is used to set the max damage this can scale to as you stay in water longer. 
+This console command sets the max amount of damage your player takes a second when drowning once the damage has scaled to it's highest level. This happens the longer you remain underwater. 
+Dump server class infos.
+Dump server class table matching the pattern (substr).
+Dump serialized entity allocations stats.
+
+When enabled player names won't have the (#) in front of their names its the same as another player.
+Whether players are automatically assigned a dz team
+Size of a cash bundle
+Size of a mega cash bundle
+Cash bundles to award for a successful contract kill
+Enables respawn in Danger Zone duos mode.
+Enables respawn in Danger Zone solo mode.
+Number of cash bundles to award for exploring a new sector
+Number of bonus cash bundles to award for exploring (if the player has the item/upgrade)
+Number of cash bundles to award for rescuing a hostage
+Whether non-server admins are allowed to use the dz_jointeam command
+
+
+This command sets the amount of health players have in Danger Zone. Default is 120. 
+This command, if set to 1, will make players spawn with armor in Danger Zone. 
+This command sets the amount of health that players spawn with in Danger Zone. Default is 120, which is also the default maximum amount of health players can have. 
+This command will restart the current Danger Zone game. 
+This command sets the range a player must be within in order for the name tag to be shown when another player's crosshair hovers over them in the Danger Zone gamemode. 
+Number of cash bundles to award for eliminating a squad
+Max players allowed per team
+This command, if set to 1 (default), will give players a tablet during the warmup period in Danger Zone. Set to 0 to disable. 
+How many money stacks players are rewarded each danger zone wave
+How many bonus money stacks players are rewarded each danger zone wave when they have the bonus item
+This command sets the amount of damage per second that the "zone" (border) in Danger Zone deals.  
+This command sets the radius of each hex on the map (tablet) in Danger Zone.
+When enabled, this allows for entity packing to use the property changes for building up the data. This is many times faster, b
+Allow player speed to exceed maximum running speed
+This command sets whether or not entity markers are enabled. 
+Exojump forwards velocity bonus when duck jumping
+Exojump upwards bonus when holding the jump button
+Stamina penalty for jumping with exo legs
+Stamina penalty for landing with exo legs
+Where applicable, this command will cause you to take the ammo from weapons as you drop them. 
+Exojump fall damage multiplier
+
+Scale damage when distributed across two players
+Landing on a another player's head gives them this ratio of the damage.
+How frequent to hear the player's step sound or how fast they appear to be running from first person.
+
+Will transmit all entities to client, regardless of pvs conditions (will still skip based on transmit flags, however).
+Will transmit players to all clients regardless of pvs checks.
+Force server side preloading.
+World friction.
+Any player (including spectator team) can speak to any other player
+Display the values of the convars for the current game_mode.
+Force all clients to disable their game instructors.
+Show user info of a connected client
+This console command sets whether or not grass burn is enabled in the server. 
+World gravity.
+Shows grenade trajectory visualization in-game.
+Dot-dash style grenade trajectory arc
+Visible thickness of grenade trajectory arc
+Length of time grenade trajectory remains visible.
+Length of time grenade trajectory remains visible as a spectator.
+Extra starting equipment for ct players in guardian modes
+Extra starting equipment for terrorist players in guardian modes
+Health given to survivors per wave in guardian mode.
+
+
+
+
+List of additional weapons to refill ammo on waves.
+
+Starting health of guardian players when respawned.
+Starting health in guardian modes.
+Starting health in guardian modes.
+Extra starting equipment for human players in guardian modes
+
+
+
+
+# of milliseconds to sleep per frame while hibernating
+# of milliseconds to sleep per frame while hibernating but running the vgui dedicated server frontend
+# of seconds to wait after final client leaves before hibernating.
+When enabled will punt all gotv clients during hibernation
+Puts the server into extremely low cpu usage mode when no clients connected
+
+
+0 = off, 1 = halloween, 2 = winter
+Turn off fire in the hole messages
+Player's active weapon will never run out of ammo. If set to 2 then player has infinite total ammo but still has to reload the 
+If turned on, will ignore all invites when user is playing a match
+Initial upward velocity for player jumps
+Exojump impulse multiplier
+How long should a kick ban from the server should last (in minutes)
+(0: do not kick on insecure servers
+
+Scale top speed on ladders
+Player can lag compensate themselves.
+Don't test validity of a lag comp restore, just do it.
+Server is a lan server ( no heartbeat, no authentication, no non-class c addresses )
+1=only improves success of jump+ducks to windows or vents (jump+duck to duck), 2=improves success of all jump+ducks to ledges, 
+1=only does the feature if running in game mode danger zone, 0=doesn't check game mode to run
+Loads a file containing steamid64 names for clients
+Loads a file containing random name words for clients
+
+Log server information to only one file.
+Log server bans in the server logs.
+If true when log when a query is blocked (can cause very large log files)
+Echo log information to the console.
+Log server information in the log file.
+Flush the log file to disk on each write (slow).
+Folder in the game directory where server logs will be stored.
+If set then include this secret when doing udp logging (will use 0x53 as packet type, not usual 0x52)
+Uses a specific outgoing socket for sv udp logging
+Uses a specific outgoing socket for second source of sv udp logging
+Uses a substring match for second source of sv udp logging
+Which maps are used for map veto pick sequence
+How many seconds each phase lasts
+Rewards gameplay time is always accumulated for players, but drops at the end of the match can be prevented
+When enabled will automatically pause the match at next freeze time if less than 5 players are connected on each team.
+Determines max allowed net_graph value for clients.
+Max dropped packets to process. Lower settings prevent lagged players from simulating too far in the past. Setting of 0 disable
+Maximum queries per second to respond to from a single ip address.
+Maximum queries per second to respond to from anywhere.
+Window over which to average queries per second averages.
+Window over which to average queries per second averages.
+Window over which to average queries per second averages.
+Max bandwidth rate allowed on server, 0 == unlimited
+This command sets the maximum speed for each player on the server. A higher value will allow players to reach faster speeds. A lower value will make players be able to reach lower speeds. 
+Maximum lag compensation in seconds
+Maximum updates per second that the server will allow
+If set, whenever a game ends, if the server uptime exceeds this number of hours, the server will exit.
+Maximum number of client-issued usrcmd ticks that can be replayed in packet loss conditions, 0 to allow no restrictions
+Hold client aim for multiple server sim ticks when client-issued usrcmd contains multiple actions (0: off
+Print a warning when user commands get dropped due to insufficient usrcmd ticks allocated, number of seconds to throttle, negat
+Maximum speed any ballistically moving object is allowed to attain per axis.
+If set, whenever a game ends, if the total memory used by the server is greater than this # of megabytes, the server will exit.
+
+This sets the minimum value for cl_cmdrate. 0 == unlimited.
+Min bandwidth rate allowed on server, 0 == unlimited
+Minimum updates per second that the server will allow
+If set, whenever a game ends, if the server uptime is less than this number of hours, the server will continue running regardle
+This command sets the acceleration multiplier for noclip mode.  
+If cheats are enabled, then you can noclip with the game paused (for doing screenshots, etc.).
+This command sets the speed multiplier for noclip mode.
+
+
+
+Pack and send snapshots in parallel for smoother server tick rate at the expense of spending more cpu.
+
+Party!!
+Server password for entry into multiplayer games
+Is the server pausable.
+
+Show precache info.
+When this setting is enabled only prime users can connect to this game server.
+
+Show user data.
+If set to 1, clients may load non-vpk files from pure protected directories.
+If set to 1, the server will allow clients to play if files they loaded are missing on server, otherwise treat client as file m
+Minimum number of file hashes to agree to form a consensus.
+If set to 1, the server will kick clients with mismatching files. Otherwise, it will issue a warning to the client.
+Seconds of server idle time to flush the sv_pure file hash cache.
+If set to 1, the server will print a message whenever a client is verifying a crc for a file.
+How hard the hostage is pushed away from physics objects (falls off with inverse square of distance).
+Maximum of how hard the hostage is pushed away from physics objects.
+Skips setupbones when npc's are outside the pvs
+Display status of the query cache (client only)
+How many string commands per second clients are allowed to submit, 0 to disallow all string commands
+The number of seconds before radio command tokens refresh.
+When set, rcon failed authentications will never ban this address, e.g. '127.0.0.1'
+Turn on recording of per player item time data into the server log.
+Cheat to test regenerative health systems
+The region of the world to report this server in.
+When enabled player avatars are exchanged via gameserver (0: off, 1: players, 2: server)
+
+If set to 1, the server records data needed to replay network stream from bot's perspective
+Adjust server tickrate upon reservation
+Time in seconds before lobby reservation expires.
+Emit the last grenade thrown on the server.
+When searching for a dedicated server from lobby, restrict search to only dedicated servers having the same sv_search_key.
+When initiating team search, set this key to match with known opponents team
+Show stats of running parallel send
+A 360x60 (<16kb) image file in /csgo/ that will be displayed to spectators.
+A 220x45 (<16kb) image file in /csgo/ that will be displayed to spectators.
+
+Token Set game server account token to use for logging in to a persistent game server account
+
+
+
+
+
+
+Print out props that are being culled/added by recipent proxies.
+
+Force on if not prohibited
+Determines whether +cl_show_team_equipment is prohibited.
+Makes it so the voip icon is shown over enemies as well as allies when they are talking
+1=show hits and near misses, 2=show hits only
+Shows client (red) and server (blue) bullet impact point (1=both, 2=client-only, 3=server-only)
+Shows extra data when bullets penetrate. (use sv_showimpacts_time to increase time shown)
+Duration bullet impact indicators remain before disappearing
+Show lag compensated hitboxes whenever a player is lag compensated.
+Duration to show lag-compensated hitboxes
+Describe current gametags.
+Sets the server to shutdown when all games have completed
+Dedicated server skirmish id to run
+Current name of the skybox texture
+Flushes the sounds.txt system
+Print soundscapes
+Players that have never moved since they spawned will drop the bomb after this amount of time.
+
+
+Determines who spectators can hear: 0: only spectators
+
+
+
+
+
+Stamina penalty for jumping
+Stamina penalty for landing
+Maximum stamina penalty
+Rate at which stamina recovers (units/sec)
+
+By default, player must maintain a reliable connection to steam servers. When player steam session drops, enforce it: 2 = insta
+The id of the steam group that this server belongs to. You can find your group's id on the admin profile page in the steam comm
+If set, only members of steam group will be able to join the server when it's empty, public people will be able to join the ser
+Minimum stopping speed when on ground.
+If set to 1, the server calculates data and fills packets to bots. Used for perf testing.
+
+Server tags. Used to provide extra information to clients when they're browsing for servers. Separate tags with a comma.
+The number of seconds a player can continue talking after dying as if they were still alive
+Dead players can hear all dead enemy communication (voice, chat)
+Living players can hear all living enemy communication (voice, chat)
+Shows teamid over player's heads.  0 = off, 1 = on
+Determines whether cl_teamid_overhead_always is prohibited.
+If >0, server will override cl_teamid_overhead_maxdist
+If >0, server will override cl_teamid_overhead_maxdist_spec
+Minimum time before recognizing consecutive duck key
+
+
+
+
+Highest unlocked game chapter.
+When enabled server will populate an additional random seed independent of the client
+Verify that edict changeinfos are being calculated properly (used to debug local network backdoor mode).
+Determines which scene is used for the versus screen.
+Overrides the max players reported to prospective clients
+
+
+
+
+Specifies which voice codec dll to use in a game. Set to the name of the dll without the extension.
+
+Allow voting during warmup?
+Allow spectators to initiate votes?
+How long after a vote passes until the action happens
+Allow spectators to vote on issues?
+How often someone can individually call a vote.
+Disallow vote kicking on the match point round.
+A vote that fails cannot be re-submitted for this long
+Can people hold votes to kick players from the server?
+Can people hold votes to load match from backup?
+When enabled, admins load match from backup without players vote
+When enabled, only admins load match from backup
+When enabled, admins load match from backup in safe time of the round only
+When enabled, only admins start technical pause
+Can people hold votes to restart the game?
+How long should a kick vote ban someone from the server? (in minutes)
+The minimum ratio of players needed to vote on an issue to resolve it.
+How long to allow voting on an issue
+Restricts vote to change level to rounds prior to match point (default 0, vote is never disallowed)
+
+Delay between end of warmup and start of match.
+
+
+
+
+
+When hosting a workshop collection, users can play other workshop map on this server when it is empty and then mapcycle into th
+Lines of crash dump console spew to keep.
+
+
+Show team selection window
+Skips the prompt when saving a buy favorite in the buy menu
+Test a clientside dispatch effect. usage: test_dispatcheffect <effect name> <distance away> <flags> <magnitude> <scale> defau
+
+Test command that drops an entity blocker out in front of the player.
+Test the freeze frame code.
+
+Run a simple set of tests converting back and forth between js and protobuf objects.
+Test_loop <loop name> - loop back to the specified loop start point unconditionally.
+Test_loopcount <loop name> <count> - loop back to the specified loop start point the specified # of times.
+Test_loopfornumseconds <loop name> <time> - loop back to the specified start point for the specified # of seconds.
+
+
+Test_proxytoggle_ensurevalue
+
+Test_randomchance <percent chance, 0-100> <token1> <token2...> - roll the dice and maybe run the command following the percenta
+
+
+
+
+
+Test_startloop <loop name> - denote the start of a loop. Really just defines a named point you can jump to.
+Start a test script running..
+
+
+Test a hud element animation. arguments: <anim name> 
+How translucent the budget panel is
+Number between 0 and 1
+Height in pixels of the budget panel
+Width in pixels of the budget panel
+Number of pixels from the left side of the game screen to draw the budget panel
+Number of pixels from the top side of the game screen to draw the budget panel
+Maximum think time in milliseconds, warning is printed if this is exceeded.
+Switch to thirdperson camera.
+
+Switch to thirdperson maya-like camera controls.
+
+
+Cycles threadpool reservation by powers of 2
+
+Play a demo and report performance info.
+Play a demo and report performance info.  Also record vprof data for the span of the demo
+Play a demo, report performance info, and then exit
+Prints the time remaining in the match
+
+
+Profile the renderer.
+Toggles a convar on or off, or cycles through a set of values.
+
+Show/hide the console.
+Togglelmappath
+Toggles score panel
+Toggles csm generation method
+Toggleunlitpath
+Togglevtxlitpath
+Load a tool.
+Unload a tool.
+Traceattack damage hitgroup
+Enable triple-monitor mode, restricting ui elements to the middle third of the display
+Trusted launch status
+Present information about trusted launch to console
+Trusted launch shown once
+Gotv advertises the match as watchable via game ui, clients watching via ui will not need to type password
+When >=0 restricts autorecording only to the specified tv index
+Allows cameraman_override to have effect. When this is set, the primary interactive caster will have all the relevant fields pr
+Allows tournament production cameraman to run csgo.exe -interactivecaster on steamid 7650123456xxx and be the camera man.
+Allows tournament production tv cameraman to run csgo.exe -interactivecaster on steamid 7650123456xxx and be the tv camera man.
+Auto director uses fixed level cameras for shots
+Automatically records all games as gotv demos.
+Relay proxies retry connection after network timeout
+Automatically broadcasts all games as gotv demos through steam.
+Automatically broadcasts all games as gotv[1] demos through steam.
+The frequency, in seconds, of sending keyframes and delta fragments to the broadcast relay server
+The frequency, in seconds, of sending keyframes and delta fragments to the broadcast1 relay server
+Max number of broadcast http requests in flight. If there is a network issue, the requests may start piling up, degrading serve
+Max number of broadcast1 http requests in flight. If there is a network issue, the requests may start piling up, degrading serv
+Resend broadcast data to broadcast relay
+The size, in kb, of the server info message size for tv broadcasts.
+The interval, in seconds, of re-sending startup data to the broadcast relay server (useful in case relay crashes, restarts or s
+Print out broadcast status
+Url of the broadcast relay
+Url of the broadcast relay1
+Comma-separated ip ranges which require steam3 challenge protocol even for gotv connections
+Set the default chat group size
+Limits spectators to chat only every n seconds
+Shows list of connected gotv clients [-instance <inst> ]
+Gotv debug info.
+Gotv broadcast delay in seconds
+Gotv[instance 1] broadcast delay in seconds
+Delays map change until broadcast is complete
+Enable delta entity bit stream cache
+Dispatch clients to relay proxies: 0=never, 1=if appropriate, 2=always
+Dispatch clients to relay proxies based on load, 1.25 will prefer for every 4 local clients to put 5 clients on every connected
+Activates gotv on server (0=off
+Activates gotv[1] on server (0=off
+Indicates whether or not the tv should use delta frames for storage of intermediate frames. This takes more cpu but significant
+When set to a valid key communication messages will be encrypted for gotv
+When set to a valid key public communication messages will be encrypted for gotv
+Maximum client number on gotv server.
+Reserves a certain number of gotv client slots for relays.
+Max gotv spectator bandwidth rate allowed, 0 == unlimited
+Hltv memory statistics
+Send a screen message to all clients [-instance <inst> ]
+Gotv host name
+Don't receive chat messages from other gotv spectators
+Overrides the gotv master root address.
+Gotv password for all clients
+
+To alleviate intermittent network connectivity problems, this is the number of seconds to wait before actually re-syncing the s
+In case of intermittent network problems, how long should playcast retry fragment retrieval before resorting to resync
+Host gotv[0] port
+Host gotv[1] port
+Starts gotv demo recording [-instance <inst> ]
+Connect to gotv server and relay broadcast.
+Gotv password for relay proxies
+Relay team radio commands to tv: 0=off, 1=on
+Relay text chat data: 0=off, 1=say, 2=say+say_team
+Relay voice data: 0=off, 1=on
+Reconnects the gotv relay proxy 
+Bypass secure challenge on gotv port
+Snapshots broadcasted per second
+Snapshots broadcasted per second, gotv[1]
+
+Show gotv server status.
+Stops the gotv broadcast [-instance <inst> ]
+Stops gotv demo recording [-instance <inst> ]
+Print remaining tv broadcast time
+Gotv connection timeout in seconds.
+Set title for gotv spectator ui
+Transmit all entities (not only director view)
+Allow real-time tweaking of the ammo impulse values.
+
+
+
+
+
+
+Main menu background movie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Time during which a new pose activity layer is shown in green in +posedebug ui
+Time to keep a no longer active pose activity layer in red until removing it from +posedebug ui
+Reloads the resource files for the active ui window
+Whether users will automatically advertise for invites (0: off
+Which game mode users last used to advertise for invites
+Steam overlay notification position
+
+
+
+Unbind a key.
+Unbind all keys.
+Unbind all joystick keys.
+Unbind all mouse / keyboard keys.
+Unpause the game.
+Use a particular weapon Arguments: <weapon_name>
+
+
+Show user data.
+Show user info for players on server.
+Render physics collision models in wireframe
+Flush and reload all vehicle scripts
+Print version info string.
+
+
+Draws the vgui panel hiearchy to the specified depth level.
+
+Vgui_dump_panels [visible]
+
+
+Show/hide vgui panel by name.
+Decay factor exponent for view punch
+How closely the view tracks with the aim punch from weapon recoil
+
+Viewanim_create
+Load animation from file
+Reset view angles!
+Save current animation to file
+Test view animation
+This command sets your client's FOV to the specified number. You can set your FOV to a maximum of 68 using this command. 
+Randomly change viewmodel offsets to visualize range
+This command sets the X offset of your view model - i.e. how far left or right it is. Your view model is your hand (and the gun in it) that displays in first person mode. The maximum value is 2.5 and the minimum value is -2.5. 
+This command sets the Y offset of your view model - i.e. how close or far from your character is. Your view model is your hand (and the gun in it) that displays in first person mode. The maximum value is 2 and the minimum value is -2. 
+This command sets the Z offset of your view model - i.e. how far up or down it is. Your view model is your hand (and the gun in it) that displays in first person mode. The maximum value is 2 and the minimum value is -2. 
+1:'desktop', 2:'couch', 3:'classic' 
+Amount of weapon recoil/aimpunch to display on viewmodel
+
+
+
+
+1 - always draw view models, 2 - never draw view models.  Should be done before map launches.
+Toggle voice transmit and receive for casters. 0 = no caster, account number of caster to enable.
+Caster volume 0.0-1.0
+Toggle voice transmit and receive.
+Toggles voice_enable convar.
+This command, if set to 0, will make CS:GO not use your operating system's device set as the default microphone device. 
+Get voice input from 'voice_input.wav' rather than from the microphone.
+
+
+
+
+Enable/disable voice in this mod.
+Mute a specific steam user
+
+
+This command, if set to 1, will make the volume of voices (player microphones) correspond to their distance from eachother. Players close to eachother would be louder than those at greater distances.  
+This command sets the amount of seconds that players will have positional voices for after death - i.e. a player can speak from their dead body for this amount of seconds after being killed/dying. 
+Record mic data and decompressed voice data into 'voice_micdata.wav' and 'voice_decompressed.wav'
+Reset all mute information for all players who were ever muted.
+Overall volume of voice over ip 0.0-1.0
+Show whether current players are muted.
+Toggle voice system.
+This command sets the volume theshold at which your microphone will be enabled if you are using voice activation. In other words, when your microphone is louder than this value, it will be transmitted in-game. 
+Unmute a specific steam user, or `all` to unmute all connected players.
+
+
+
+Sound volume
+Reload sentences.txt file
+View entities in the voxel-tree inside box <vector(min), vector(max)>.
+View entities in the voxel-tree at the player position.
+View entities in the voxel-tree inside sphere <vector(center), float(radius)>.
+View entities in the voxel-tree.
+Set sleep timeout: large values mean stuff won't ever sleep
+Toggle vprof profiler
+Add a new budget group dynamically for debugging
+Toggle vprof cache miss checking
+Turn off vprof cache miss checking
+Turn on vprof cache miss checking
+
+Collapse the whole vprof tree
+Dump vprof counters to the console
+Write the names of all of the vprof groups to the console.
+Expand the whole vprof tree
+Expand a budget group in the vprof tree by name
+Generate a report to the console.
+Generate a report to the console.
+Generate a report to the console.
+Generate a report to the console based on budget group.
+Generate a report to the console.
+Generate a minimal hiearchical report to the console.
+Generate a report to the console.
+
+
+
+Turn off vprof profiler
+Turn on vprof profiler
+
+Average the next n frames.
+Start playing back a recorded .vprof file.
+While playing back a .vprof file, step to the next tick.
+While playing back a .vprof file, step to the previous tick.
+Stop playing back a recorded .vprof file.
+
+Start recording vprof data for playback later.
+Stop recording vprof data
+Request a vprof data stream from the remote server (requires authentication)
+Stop an existing remote vprof data request
+Reset the stats in vprof profiler
+Reset just the peak time in vprof profiler
+Convert a recorded .vprof file to .csv.
+Number of milliseconds that a node must exceed to turn red in the vprof panel
+Set to one to show average and peak times
+Enable vtune for a particular vprof group ('disable' to disable)
+Above this many milliseconds render the label red to indicate slow code.
+Controls vtune's sampling.
+Dump models to vxconsole
+
+
+When in wc edit mode and editing air nodes,  moves position of air node crosshair and placement location further away from play
+When in wc edit mode and editing air nodes,  moves position of air node crosshair and placement location nearer to from player
+When in wc edit mode, toggles laying down or air nodes instead of ground nodes
+When in wc edit mode, creates a node where the player is looking if a node is allowed at that location for the currently select
+When in wc edit mode, destroys the node that the player is nearest to looking at.  (the node will be highlighted by a red box).
+When in wc edit mode restores the last deleted node
+
+Force spread to the specified value.
+Disable weapon inaccuracy spread
+On deploy, forcibly reset weapon accuracy to zero.
+
+Scale factor for jumping inaccuracy, set to 0 to make jumping accuracy equal to standing
+If set to non-zero, weapons will delete themselves after the specified time (in seconds) if no players are near.
+
+Enables display of weapon accuracy; 1: show accuracy box, 3: show accuracy with dynamic crosshair
+If set to non-zero, will remove the oldest dropped weapon to maintain the specified number of dropped weapons in the world.
+
+Deprecated. Recoil now decays using weapon_recoil_decay_coefficient
+Decay factor exponent for weapon recoil
+Decay factor exponent for weapon recoil
+Decay factor (linear term) for weapon recoil
+
+Overall scale factor for recoil. Used to reduce recoil on specific platforms
+Overall scale factor for recoil. Used to reduce recoil.  Only for motion controllers
+Initial recoil suppression factor (first suppressed shot will use this factor * standard recoil, lerping to 1 for later shots
+Number of shots before weapon uses full recoil
+Amount of variance per recoil impulse
+Decay factor for weapon recoil velocity
+Additional (non-aim) punch added to view from recoil
+When enabled will show knife reticle on clients. Used for game modes requiring target id display when holding a knife.
+Scaling for falloff of weapon firing sounds
+Runs a whitelisted command.
+Clear all nav attributes of selected area.
+Bring up the workshop publish dialog.
+Sets the first map to load once a workshop collection been hosted. Takes the file id of desired start map as a parameter.
+Bring up the workshop workbench dialog.
+Writes a list of permanently-banned user ids to banned_user.cfg.
+Save the ban list to banned_ip.cfg.
+
+
+
+Load a saved game from a console storage device.
+
+
+Saves current game to a console storage device.
+
+
+
+
+
+
+Additional controller sensitivity scale factor applied when fov is zoomed in.
+Additional mouse sensitivity scale factor applied when fov is zoomed in.
